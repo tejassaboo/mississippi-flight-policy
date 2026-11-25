@@ -1,5 +1,7 @@
 # Mississippi State Travel Policy Flight Booking
 
+**Source of the handbook:** https://www.dfa.ms.gov/sites/default/files/Office%20of%20Purchasing%2C%20Travel%20and%20Fleet%20Home/Resources%20Manuals%20Guidelines/Travel%20Manual%202024.pdf. The agent reads it verbatim (bundled at `src/plugin/data/policy.txt`); flights, fares and trips are synthetic.
+
 **No affiliation with the State of Mississippi.** The handbook is the Mississippi Department of Finance and
 Administration's *State Travel Policy Rules & Regulations* (December 2024), a public state manual, bundled verbatim
 for research. Every traveller, office and trip in the scenarios is invented.

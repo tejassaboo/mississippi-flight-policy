@@ -1,0 +1,157 @@
+{
+  "id": "alder-shoal",
+  "category": "boundary_twin",
+  "overlays": [
+    "multi_leg",
+    "dearer_option"
+  ],
+  "twin_of": "thistle-marsh",
+  "twin_fact": "Dallas layover 150 or 60 minutes",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'm testifying at a federal hearing in Atlanta on March 3rd and have to land by 11:30 that morning. Book the cheapest flight that gets me there in time.",
+  "trip": {
+    "traveller_name": "Olivia Brandon",
+    "traveller_title": "Public Utilities Staff Attorney",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Public Utilities Staff, southwest office",
+    "duty_station": "Gloster, MS",
+    "local_airport": "BTR",
+    "origin": "BTR",
+    "destination": "ATL",
+    "travel_date": "2027-03-03",
+    "must_land_by": "2027-03-03 11:30",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-02-10",
+    "purpose": "Testifying at a federal regulatory hearing in Atlanta",
+    "purpose_kind": "HEARING",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "Executive Director, Public Utilities Staff",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "BTR",
+        "destination": "ATL",
+        "date": "2027-03-03",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "dallas": {
+            "carrier": "AA",
+            "via": [
+              "DFW"
+            ],
+            "depart": "05:30",
+            "minutes": [
+              85,
+              115
+            ],
+            "layovers": [
+              150
+            ]
+          },
+          "first": {
+            "carrier": "DL",
+            "depart": "06:00",
+            "minutes": [
+              80
+            ]
+          },
+          "later": {
+            "carrier": "DL",
+            "depart": "09:30",
+            "minutes": [
+              80
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "dallas-economy",
+            "flight": "dallas",
+            "cabin": "ECONOMY",
+            "fare_cents": 21400
+          },
+          {
+            "slot": "first-economy",
+            "flight": "first",
+            "cabin": "ECONOMY",
+            "fare_cents": 26800
+          },
+          {
+            "slot": "later-economy",
+            "flight": "later",
+            "cabin": "ECONOMY",
+            "fare_cents": 23900
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "first-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "ARRIVES_TOO_LATE",
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "PUBLIC_CARRIER",
+      "TRAVEL_REIMBURSEMENT",
+      "TRAVEL_ROUTING"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    },
+    {
+      "lines": [
+        368,
+        369
+      ],
+      "sha256": "bee41acd6fffa75b215c771f32f967e68da687706aa36b20c94222a33ec668bd",
+      "quote": "Travel for business should be conducted at a minimum cost to achieve the success of the mission.",
+      "why": "business travel at a minimum cost that still achieves the mission"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "With a 150-minute layover the $214 Dallas connection lands at 12:20, and the $239 09:30 nonstop at 11:50: both after 11:30, so neither is logical (line 370; lines 368-369, at a minimum cost that achieves the mission). The 06:00 Delta nonstop at $268 lands at 08:20."
+}

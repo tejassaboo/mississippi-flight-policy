@@ -1,0 +1,177 @@
+{
+  "id": "juniper-quoin",
+  "category": "multi_rule",
+  "overlays": [
+    "dearer_option"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Our agency head wants me on a nonstop to Phoenix on February 23rd so I make the afternoon briefing; the eWaiver for the nonstop fare is approved. Please book it.",
+  "trip": {
+    "traveller_name": "Carla Mendez",
+    "traveller_title": "Water Supply Division Director",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Department of Environmental Quality, Office of Land and Water (Picayune)",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "PHX",
+    "travel_date": "2027-02-23",
+    "must_land_by": "2027-02-23 15:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-02-01",
+    "purpose": "Afternoon briefing with the Arizona water authority on shared aquifer modelling",
+    "purpose_kind": "MEETING",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": true,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "Deputy Director, Office of Land and Water",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      },
+      {
+        "role": "AGENCY_HEAD",
+        "name": "Executive Director, Department of Environmental Quality",
+        "subject": "ROUTING",
+        "covers": "NONSTOP_FARE"
+      },
+      {
+        "role": "STATE_TRAVEL_OFFICE",
+        "name": "State Travel Office (OPTFM)",
+        "subject": "EWAIVER_APPROVED",
+        "covers": "NONSTOP_FARE"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "PHX",
+        "date": "2027-02-23",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "dallas": {
+            "carrier": "AA",
+            "via": [
+              "DFW"
+            ],
+            "depart": "06:00",
+            "layovers": [
+              75
+            ]
+          },
+          "southwest": {
+            "carrier": "WN",
+            "depart": "07:20"
+          },
+          "american": {
+            "carrier": "AA",
+            "depart": "09:10"
+          }
+        },
+        "offers": [
+          {
+            "slot": "dallas-economy",
+            "flight": "dallas",
+            "cabin": "ECONOMY",
+            "fare_cents": 23800
+          },
+          {
+            "slot": "southwest-economy",
+            "flight": "southwest",
+            "cabin": "ECONOMY",
+            "fare_cents": 32200
+          },
+          {
+            "slot": "american-economy",
+            "flight": "american",
+            "cabin": "ECONOMY",
+            "fare_cents": 33900
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "southwest-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "EWAIVER_APPROVED"
+    ],
+    "approvers": [
+      "AGENCY_HEAD",
+      "DEPARTMENT_HEAD",
+      "NONE",
+      "STATE_TRAVEL_OFFICE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "CONFERENCES",
+      "EWAIVER_REQUEST_FORM",
+      "PUBLIC_CARRIER"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        857,
+        862
+      ],
+      "sha256": "6dba5e55eb52bd4f567be4fa8a0f19a800235ba1a94da430476e11f48badd056",
+      "quote": "Alternate departure and return dates and times should be considered by all travelers when they will result in lower fares. It is incumbent upon the traveler to provide information to the travel agent which could result in lower fares. If routing or accommodations other than the most economical are required, the Agency Head or designee may specify alternate routing and accommodations and eWaiver Requests found here: (http://www.dfa.ms.gov/media/1533/ewaiver.pdf ) shall be submitted to the Office of Purchasing, Travel and Fleet Management.",
+      "why": "alternate dates should be considered; other routing needs the agency head and an eWaiver to OPTFM"
+    },
+    {
+      "lines": [
+        840,
+        843
+      ],
+      "sha256": "b0a80ea10f962b351f8d2e35a73f046ff100baffd786f1ba623c1f0e386d08fd",
+      "quote": "If the employee must book a flight at a price in excess of the lowest rate on the cost comparison, the agency must, prior to booking the flight, submit an eWaiver Request found on the OPTFM website at http://www.dfa.ms.gov/media/1533/ewaiver.pdf to the Office of Purchasing, Travel and Fleet Management and include the amount of cost and the justification of using that fare on the eWaiver.",
+      "why": "a fare above the lowest on the comparison needs an eWaiver before booking"
+    },
+    {
+      "lines": [
+        462,
+        466
+      ],
+      "sha256": "ceb056e8af713247a263c5452977bd7dd90f95ab157ad49e3f25367cf0ef3cb1",
+      "quote": "The form should be completely filled out and signed by the entity head or designee before submitting the form to the State Travel Office. Approval of the eWaiver Request Form will depend on the State Travel Office being able to clearly determine the anticipated cost to the State and/or any anticipated savings.",
+      "why": "the eWaiver is signed by the entity head and approved by the State Travel Office"
+    },
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 859-862: routing other than the most economical may be specified by the agency head with an eWaiver to OPTFM; lines 840-843: a fare above the lowest needs the eWaiver before booking. Both are on file: the cheapest nonstop, Southwest at $322 (line 370 still picks the lowest of the allowed nonstops)."
+}

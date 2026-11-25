@@ -1,0 +1,166 @@
+{
+  "id": "marten-sill",
+  "category": "boundary_twin",
+  "overlays": [],
+  "twin_of": "osprey-reed",
+  "twin_fact": "New Orleans fare 18600 or 28900 cents",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'd like to drive down to New Orleans and fly to Chicago from there on January 20th, if that's acceptable; if not, I'll fly out of Baton Rouge.",
+  "trip": {
+    "traveller_name": "Wesley Carraway",
+    "traveller_title": "Bridge Inspection Engineer",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Department of Transportation, District 7 bridge unit",
+    "duty_station": "Woodville, MS",
+    "local_airport": "BTR",
+    "origin": "BTR",
+    "destination": "ORD",
+    "travel_date": "2027-01-20",
+    "must_land_by": "2027-01-20 16:00",
+    "other_origin": "MSY",
+    "other_origin_added_cents": 9500,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2026-12-30",
+    "purpose": "Acceptance testing of bridge-inspection equipment at the manufacturer near Chicago",
+    "purpose_kind": "SITE_INSPECTION",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "local",
+        "origin": "BTR",
+        "destination": "ORD",
+        "date": "2027-01-20",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "united": {
+            "carrier": "UA",
+            "depart": "06:30"
+          },
+          "dallas": {
+            "carrier": "AA",
+            "via": [
+              "DFW"
+            ],
+            "depart": "07:10",
+            "layovers": [
+              70
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "btr-united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 34800
+          },
+          {
+            "slot": "btr-dallas-economy",
+            "flight": "dallas",
+            "cabin": "ECONOMY",
+            "fare_cents": 36200
+          }
+        ]
+      },
+      {
+        "name": "other",
+        "origin": "MSY",
+        "destination": "ORD",
+        "date": "2027-01-20",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "united": {
+            "carrier": "UA",
+            "depart": "08:00"
+          },
+          "american": {
+            "carrier": "AA",
+            "depart": "10:30"
+          }
+        },
+        "offers": [
+          {
+            "slot": "msy-united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 18600
+          },
+          {
+            "slot": "msy-american-economy",
+            "flight": "american",
+            "cabin": "ECONOMY",
+            "fare_cents": 21400
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "msy-united-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "COST_SAVINGS",
+      "LOWEST_FARE",
+      "OTHER_AIRPORT_MORE_ECONOMICAL"
+    ],
+    "approvers": [
+      "NONE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "PUBLIC_CARRIER"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        845,
+        847
+      ],
+      "sha256": "92071dba3e2df236977eb876484bdd5f757e6920ee53ddbbd40175a2798f2a3b",
+      "quote": "When traveling by regularly scheduled air service, travelers are to utilize their local airport. Use of the local airport is assumed to result in travel costs that are most economical to the State. Mileage to and from the airport is reimbursable.",
+      "why": "travellers use their local airport, assumed most economical"
+    },
+    {
+      "lines": [
+        849,
+        851
+      ],
+      "sha256": "a8e105d6c51846c96e7282ef29b1d023a13d3f07cc022b7ba498f3bb7e639b49",
+      "quote": "The criteria for determining which airport or mode of transportation to use should be based on travel costs that are most economical to the State. All costs should be considered, i.e., travel, labor, lodging, meals, mileage reimbursement, etc., in making the determination.",
+      "why": "the airport is chosen on the costs most economical to the State, all costs considered"
+    },
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Woodville's local airport is Baton Rouge ($348). New Orleans costs $186 plus the coordinator's $95 of added mileage, parking and staff time: $281, less than $348. Lines 849-851 choose the airport on the costs most economical to the State, all costs considered, so the local-airport assumption (lines 845-846) gives way."
+}

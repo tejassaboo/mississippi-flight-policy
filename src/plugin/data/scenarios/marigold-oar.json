@@ -1,0 +1,164 @@
+{
+  "id": "marigold-oar",
+  "category": "hidden_clause",
+  "overlays": [
+    "multi_leg",
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'm on the State Board of Health and need to get to the national board conference near Dulles on March 22nd. Cheapest economy, please.",
+  "trip": {
+    "traveller_name": "Dr. Raymond Pickens",
+    "traveller_title": "Member, State Board of Health",
+    "passenger": "BOARD_MEMBER",
+    "board_allowance_instead_of_salary": true,
+    "accompanies": "",
+    "agency": "Mississippi State Board of Health",
+    "duty_station": "Poplarville, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "IAD",
+    "travel_date": "2027-03-22",
+    "must_land_by": "2027-03-22 19:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-02-26",
+    "purpose": "National association of state boards of health annual conference near Washington Dulles",
+    "purpose_kind": "CONFERENCE",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "State Health Officer, Mississippi State Department of Health",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "IAD",
+        "date": "2027-03-22",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "houston": {
+            "carrier": "UA",
+            "via": [
+              "IAH"
+            ],
+            "depart": "06:30",
+            "layovers": [
+              75
+            ]
+          },
+          "charlotte": {
+            "carrier": "AA",
+            "via": [
+              "CLT"
+            ],
+            "depart": "07:00",
+            "layovers": [
+              65
+            ]
+          },
+          "united": {
+            "carrier": "UA",
+            "depart": "08:15"
+          }
+        },
+        "offers": [
+          {
+            "slot": "houston-economy",
+            "flight": "houston",
+            "cabin": "ECONOMY",
+            "fare_cents": 30500
+          },
+          {
+            "slot": "charlotte-economy",
+            "flight": "charlotte",
+            "cabin": "ECONOMY",
+            "fare_cents": 28700
+          },
+          {
+            "slot": "united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 31200
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "charlotte-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE",
+      "OFFICER_OF_THE_STATE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "CONFERENCES",
+      "PUBLIC_CARRIER",
+      "TRAVEL_CARD",
+      "TRAVEL_REIMBURSEMENT",
+      "TRAVEL_ROUTING"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        375,
+        377
+      ],
+      "sha256": "81ff776fb97c23cfe26626dd9ca16c9fe0071b34af264b4830b635b06b770568",
+      "quote": "To be eligible for reimbursement at the state rate, the employee must have a W2 or receive the maximum state reimbursement rate allowed as per diem in lieu of salary. This applies to Board and Commissions. When an employee receives a per diem \"in lieu of salary\", they are considered \"officers of the state\".",
+      "why": "board members on a per diem in lieu of salary are officers of the state"
+    },
+    {
+      "lines": [
+        1026,
+        1030
+      ],
+      "sha256": "692539b39905f5a59acbe5201b0d2a4c26b2c2ad896948bbe2944ac7d9563cc5",
+      "quote": "The cardless travel account allows travel-related expenses to be delegated to one person, the Program Coordinator, the designated person responsible for making official business travel arrangements for others, including non-entity employees traveling on official state business. Any travel-related services, such as travel agency fees, airfare, railway, vehicle rental, lodging, lodging deposits, travel-related conference registration, etc., which are normally directly billed can now be billed to this account.",
+      "why": "the cardless account books non-entity travellers on official state business"
+    },
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "A board member is not an employee, but lines 375-377 make a board member paid the per diem in lieu of salary an officer of the state, and lines 1026-1028 let the cardless account book non-entity travellers on official state business. The lowest logical rate: the Charlotte connection."
+}

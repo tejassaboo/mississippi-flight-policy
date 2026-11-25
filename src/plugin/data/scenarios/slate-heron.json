@@ -1,0 +1,171 @@
+{
+  "id": "slate-heron",
+  "category": "distractor",
+  "overlays": [
+    "multi_leg"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "The State Travel Office already approved my eWaiver, so please put me on the nonstop to Las Vegas on April 5th if that's covered; otherwise the cheaper flight is fine.",
+  "trip": {
+    "traveller_name": "Patrick Dunaway",
+    "traveller_title": "Traffic Operations Engineer",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Department of Transportation, Traffic Engineering (Picayune)",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "LAS",
+    "travel_date": "2027-04-05",
+    "must_land_by": "2027-04-05 18:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-03-08",
+    "purpose": "Western states transportation operations conference in Las Vegas",
+    "purpose_kind": "CONFERENCE",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": true,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "Executive Director, Department of Transportation",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      },
+      {
+        "role": "STATE_TRAVEL_OFFICE",
+        "name": "State Travel Office (OPTFM)",
+        "subject": "EWAIVER_APPROVED",
+        "covers": "LODGING"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "LAS",
+        "date": "2027-04-05",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "dallas": {
+            "carrier": "AA",
+            "via": [
+              "DFW"
+            ],
+            "depart": "06:30",
+            "layovers": [
+              75
+            ]
+          },
+          "saltlake": {
+            "carrier": "DL",
+            "via": [
+              "SLC"
+            ],
+            "depart": "07:45",
+            "layovers": [
+              65
+            ]
+          },
+          "southwest": {
+            "carrier": "WN",
+            "depart": "10:20"
+          }
+        },
+        "offers": [
+          {
+            "slot": "dallas-economy",
+            "flight": "dallas",
+            "cabin": "ECONOMY",
+            "fare_cents": 24600
+          },
+          {
+            "slot": "saltlake-economy",
+            "flight": "saltlake",
+            "cabin": "ECONOMY",
+            "fare_cents": 26200
+          },
+          {
+            "slot": "southwest-economy",
+            "flight": "southwest",
+            "cabin": "ECONOMY",
+            "fare_cents": 31800
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "dallas-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "ALTERNATE_ROUTE_TOO_EXPENSIVE",
+      "COST_SAVINGS",
+      "LOWEST_FARE",
+      "WAIVER_NOT_ON_FILE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE",
+      "STATE_TRAVEL_OFFICE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "CONFERENCES",
+      "EWAIVER_REQUEST_FORM",
+      "PUBLIC_CARRIER",
+      "TRAVEL_ROUTING"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        853,
+        853
+      ],
+      "sha256": "7ad6e1f3b73ffc102d67b114ec5aa60ffe365e4f9c2754b24dbf06e3316d56ab",
+      "quote": "The least expensive routing shall be used.",
+      "why": "the least expensive routing"
+    },
+    {
+      "lines": [
+        840,
+        843
+      ],
+      "sha256": "b0a80ea10f962b351f8d2e35a73f046ff100baffd786f1ba623c1f0e386d08fd",
+      "quote": "If the employee must book a flight at a price in excess of the lowest rate on the cost comparison, the agency must, prior to booking the flight, submit an eWaiver Request found on the OPTFM website at http://www.dfa.ms.gov/media/1533/ewaiver.pdf to the Office of Purchasing, Travel and Fleet Management and include the amount of cost and the justification of using that fare on the eWaiver.",
+      "why": "a fare above the lowest on the comparison needs an eWaiver before booking"
+    }
+  ],
+  "distractors": [
+    {
+      "lines": [
+        1099,
+        1103
+      ],
+      "quote": "An eWaiver request form is required for any lodging reimbursement greater than the conference rate or when an employee stays somewhere other than the conference hotel",
+      "why": "a lodging eWaiver, which says nothing about the airfare"
+    }
+  ],
+  "design_notes": "The eWaiver on file is for staying outside the conference hotel (lines 1099-1103); a fare above the lowest needs its own eWaiver (lines 840-843) and the least expensive routing shall be used (line 853): the Dallas connection."
+}

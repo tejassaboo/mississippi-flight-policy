@@ -1,0 +1,170 @@
+{
+  "id": "ember-paddock",
+  "category": "distractor",
+  "overlays": [
+    "multi_leg",
+    "date_arithmetic"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Please book me to Seattle on February 17th for the wildfire GIS course, cheapest economy. I'll also need a $600 travel advance for the hotel.",
+  "trip": {
+    "traveller_name": "Allison Tran",
+    "traveller_title": "Forestry GIS Analyst",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Mississippi Forestry Commission, Picayune district",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "SEA",
+    "travel_date": "2027-02-17",
+    "must_land_by": "2027-02-17 20:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-01-22",
+    "purpose": "Wildfire GIS training course in Seattle",
+    "purpose_kind": "TRAINING",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 60000,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "State Forester, Mississippi Forestry Commission",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "SEA",
+        "date": "2027-02-17",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "minneapolis": {
+            "carrier": "DL",
+            "via": [
+              "MSP"
+            ],
+            "depart": "06:30",
+            "layovers": [
+              70
+            ]
+          },
+          "denver": {
+            "carrier": "UA",
+            "via": [
+              "DEN"
+            ],
+            "depart": "07:15",
+            "layovers": [
+              80
+            ]
+          },
+          "alaska": {
+            "carrier": "AS",
+            "depart": "09:00"
+          }
+        },
+        "offers": [
+          {
+            "slot": "minneapolis-economy",
+            "flight": "minneapolis",
+            "cabin": "ECONOMY",
+            "fare_cents": 28800
+          },
+          {
+            "slot": "denver-economy",
+            "flight": "denver",
+            "cabin": "ECONOMY",
+            "fare_cents": 30100
+          },
+          {
+            "slot": "alaska-economy",
+            "flight": "alaska",
+            "cabin": "ECONOMY",
+            "fare_cents": 31200
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "minneapolis-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "CONFERENCES",
+      "PUBLIC_CARRIER",
+      "TRAVEL_REIMBURSEMENT",
+      "TRAVEL_ROUTING"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    },
+    {
+      "lines": [
+        853,
+        853
+      ],
+      "sha256": "7ad6e1f3b73ffc102d67b114ec5aa60ffe365e4f9c2754b24dbf06e3316d56ab",
+      "quote": "The least expensive routing shall be used.",
+      "why": "the least expensive routing"
+    }
+  ],
+  "distractors": [
+    {
+      "lines": [
+        389,
+        395
+      ],
+      "quote": "An advance will not be issued earlier than 20 days before the travel start date.",
+      "why": "the advance's timing and approval, not the ticket's"
+    },
+    {
+      "lines": [
+        834,
+        838
+      ],
+      "quote": "the state agency must maintain in its files a cost comparison showing a minimum of two (2) fares",
+      "why": "paperwork for bookings outside the contract agencies; it does not pick the fare"
+    }
+  ],
+  "design_notes": "The lowest logical rate (line 370). The advance is 26 days before travel and needs the executive director's approval (lines 389-395), but those rules govern the cash advance, not the ticket: book now."
+}

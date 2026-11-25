@@ -1,0 +1,1543 @@
+State of Mississippi
+Department of Finance and Administration
+Office of Purchasing, Travel, and Fleet Management
+____________________________________________
+
+State Travel Policy
+Rules & Regulations
+
+December 2024
+
+Mississippi Department of Finance and Administration
+Office of Purchasing, Travel, and Fleet Management
+
+TABLE OF CONTENTS
+
+Section 1 - General Information Page
+
+100. Introduction 6
+
+101. Definitions 7
+
+102. Administration & Responsibility 9
+
+A. State Travel Manager 9
+
+B. Department Directors 9
+
+C. Department Travel Coordinators 9
+
+Section 2 - Travel Reimbursement
+
+103. Travel Reimbursement 10
+
+104. Travel Advances 10
+
+A. Travel Advances (In-State, Out-of-State, International) 10
+
+B. Prior to Trip Expense (PTE) (In-State, Out-of-State, International) 11
+
+105. eWaiver Request Form 11
+
+106. Travel Reimbursement Voucher 12
+
+Section 3 - Transportation
+
+107. Travel Routing 14
+
+A. Trip Optimizer- NOTICE OF MORATORIUM 14
+
+This section of the manual is currently under a moratorium until
+June 30, 2027. During this period, the use of the Trip Optimizer
+is not required.
+
+B. Using the Trip Optimizer System 15
+
+C. Exemptions 15
+
+108. Combining Business Travel with Personal Travel 16
+
+109. Vehicle Travel 16
+
+A. Private Vehicle Used for State Business 16
+
+B. Rental Vehicle Used for State Business 17
+
+1. In-State Vehicle Rentals 18
+
+2. Vehicle Rental Insurance 18
+
+3. Regional Price Differentials 18
+
+C. State-Owned Vehicle 19
+
+D. Calculating Reimbursement for Driving vs. Flying 19
+
+110. Public Carrier (Airplane) 20
+
+A. Airline Travel - General Information 20
+
+B. Frequent Flyer Program Awards 21
+
+C. Airline Penalty Fares 21
+
+D. Airline Reservation Changes 21
+
+1. Involuntary 21
+
+2. Voluntary 21
+
+E. Airline Travel Invoices 22
+
+F. Airline Traveler Profiles 22
+
+G. Cancellations/Refunds 22
+
+H. Lost Airline Tickets 22
+
+I. Passenger Facility Charges (PFCs) 22
+
+J. Delayed or Canceled Flights 22
+
+K. Overbooked Flights 23
+
+L. Baggage Allowance Information - Domestic and International 23
+
+M. Delayed, Lost, and Damaged Baggage 23
+
+N. Flight Insurance 23
+
+Section 4 - Travel Card Program - State Agencies/Universities/Governing Authorities/School
+Districts
+
+111. Travel Card Program Overview 24
+
+Section 5 - Conferences, Seminars, Workshops
+
+112. In-State/Out-of-State/International Conferences 25
+
+113. Conference Airlines 25
+
+114. Conference Hotels 26
+
+115. Conference Meals 26
+
+Section 6 - International Travel
+
+116. General Information 27
+
+117. Approval Form Requirements 27
+
+A. Travel Authorization Form (MAAPP Form 13.20.20) 27
+
+118. Currency Exchange for Travel Reimbursement Voucher 28
+
+Section 7 - Lodging
+
+119. General Information 29
+
+120. Lodging Shared with Someone Not a State Employee 29
+
+121. Lodging Shared with State Employee 29
+
+122. In-State Lodging 30
+
+123. Out-of-State Lodging 31
+
+Section 8 - Meal Allowances
+
+124. General Information 32
+
+125. High-Cost Meal Allowances 32
+
+126. Taxable and Non-Taxable Meals 33
+
+127. Meal Tips 33
+
+Section 9 - Contract Travel Agencies
+
+128. General Information 34
+
+129. Payment to Travel Agencies 34
+
+Section 10 - Other Allowable Expenses
+
+130. Phone Charges, Postage, and Other Expenses 35
+
+131. Taxi Fares 35
+
+132. Miscellaneous Charges 35
+
+A. Baggage Handling 35
+
+B. Hotel/Airport Parking 35
+
+C. Laundry Charges 35
+
+Section 11 - Forms
+
+133. Travel Forms 36
+
+A. MAAPP Form 13.20.20 - Travel Authorization Form 36
+
+B. MAAPP Form 13.20.10 - Travel Voucher Form 36
+
+C. eWaiver Form 36
+
+D. Vendor Incident Form 36
+
+Section 12 - Revisions
+
+134. Revision Description 37
+
+1. Revisions Continued 38
+
+Section 1 - General Information
+
+100. Introduction
+
+Section 25-3-41, Mississippi Code of 1972 , establishes guidelines for travel reimbursement of officers and
+employees of the State of Mississippi, and of any department, institution, board, or commission thereof. It also
+provides that the Mississippi Department of Finance and Administration (DFA) shall promulgate rules and
+regulations to effectuate economies for all expenses authorized under this section. All rules and regulations
+contained herein apply to all state officers and employees. The provisions governing reimbursement of actual
+expenses such as meals, lodging, and other necessary expenses apply to officers and employees of all other
+political subdivisions of the State as well as state officers and employees.
+
+The State Travel Policy Rules & Regulations is a travel manual that is intended to serve as a quick reference
+for the provisions of Section 25-3-41 of the Mississippi Code and other relevant statutes, as well as rules and
+regulations adopted by the DFA affecting all areas of reimbursable state travel.
+
+State departments and political subdivisions are authorized to supplement these regulations , providing the
+requirements set forth herein are not exceeded and any such supplement does not constitute a deviation from
+provisions of the law on allowable reimbursements. State departments and political subdivisions must ensure
+that adequate internal control is maintained over travel. State departments are responsible for providing a copy
+of the State Travel Policy Rules & Regulations and their department supplement, if any, to the employee or
+individual traveling on official business for the State of Mississippi. State travel regulations are also contained
+in the Mississippi Agency Accounting Policies and Procedures (MAAPP) Manual, Travel Section.
+
+Issued By:
+
+Mississippi Department of Finance and Administration
+Office of Purchasing, Travel and Fleet Management (OPTFM)
+501 North West Street
+701-A Woolfolk Building
+Jackson, MS 39201
+601-359-3409 - phone
+E-Mail: travel@dfa.ms.gov
+Website: http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/
+
+101. Definitions
+
+A. Emergency Travel Status - The official status of an employee when away from the employee's Official
+Duty Station and Official Residence on official state business during an emergency, as declared by an
+entity head or designee.
+
+An employee may claim mileage reimbursement to travel from one office or regular place of work to
+another place of work, or from home to his Official Duty Station or any temporary work site if the travel
+is necessitated by an emergency and it occurs outside the normal working hours of the employee.
+
+Entities determine when an employee is in emergency travel status. There are no regulations set by
+DFA determining how many miles one must travel to be eligible for meal reimbursement or lodging
+reimbursement.
+
+B. High-Cost Meal Allowance - Cities designated in the Federal Register as having a maximum per diem
+rate of $149 or higher. The Department of Finance and Administration, Office of Fiscal Management,
+will reimburse actual meal costs in those cities based on a sliding scale not to exceed the amount set
+forth in Section 8 - Meal Allowances of this document.
+
+C. International Travel - All travel to areas other than the 48 contiguous United States and Alaska.
+
+D. Meal Reimbursement - Reimbursement of actual cost of meals when an employee is in travel status.
+Reimbursement shall not exceed the amounts set forth in Section 8 of the Travel Manual. Meals are
+reimbursed based on actual cost not to exceed the maximum daily reimbursement for the location of
+travel.
+
+E. Mileage Reimbursement - The rate set forth per Section 25 -3-41, Mississippi Code of 1972, which
+mandates that state officers and employees traveling on official state business in their private vehicle
+be reimbursed at the same rate federal employees are for official federal business in a private vehicle.
+The current reimbursement rate is set forth in the Mileage Reimbursement Rate memo (
+http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/.
+
+F. Official Duty Station - The city, town, or other location where the employee's regular place of work is
+located, or the city, town, or location where the employee's primary work is performed on a permanent
+basis. If the employee regularly works in two or more areas, his official duty station shall be where the
+regular place of work is located. The regular place of work should be determined by the entity head or
+authorized designee based on total time ordinarily spent working in each area and the degree of
+business activity in each area.
+
+G. Official Residence - The city, town, or other location where an employee maintains a residence that is
+used as a primary domicile by the officer/employee. Determination by the entity head or authorized
+designee regarding an employee's residence is to be based on items such as voter registration,
+ownership, or long -term rental of a personal residence, and the permanent address carried in the
+officer/employee's personnel file.
+
+H. Prior to Trip Expense - Allows travelers to be reimbursed for lodging or public carrier ticket purchases
+paid prior to travel.
+
+I. Public Carrier - Any entity that offers transportation of people to the public for pay, which may include
+airlines, buses, rental vehicles, and trains.
+
+J. Regular Place of Work - The city, town , or other location at which the state employee works or
+performs services on a regular basis as determined by the entity head. Mileage is not reimbursed
+between any regular place of work and home.
+
+K. Restricted / Non-Refundable Airline Tickets - If a passenger does not use this type of ticket, none of
+the money paid for the ticket will be returned. Many airlines will allow unused tickets to be used as a
+credit towards future travel after paying a fee to change the ticket.
+
+L. Taxable Meals - Those meal expenses incurred during official travel where an overnight stay is not
+included.
+
+M. Temporary Place of Work - The city, town, or other location at which the employee performs services
+on an irregular or short-term (generally one year or less) basis. State employees traveling on official
+business will be reimbursed for authorized and documented expenses between home and the
+temporary place of work, provided the temporary place of work is not within the city, town, or location of
+their regular place of work.
+
+N. Travel Status - The official status of an employee when away from the employee's Official Duty Station
+and Official Residence on official state business. The employee who works in two or more offices or
+regular places of work may claim mileage reimbursement to travel from one office or regular place of
+work to another place of work, but not between any regular work site and home, regardless of the
+distance of the commute.
+
+An employee is not in travel status and shall not receive lodging or meal reimbursement while at his
+Official Duty Station. Entities determine when an employee is in travel status. There are no
+regulations set by DFA determining how many miles one must travel to be eligible for meal
+reimbursement or lodging reimbursement.
+
+O. Unrestricted/Refundable Airline Tickets - Unrestricted airfares allow for refunds and changes in
+travel dates without penalties. Different airlines have different procedures for refunds and changes.
+This airfare usually has no special advance purchase, Saturday stay , or certain days to travel
+requirements.
+
+102. Administration & Responsibility
+
+The State Travel Office is established in the Mississippi Department of Finance and Administration, Office of
+Purchasing, Travel and Fleet Management, to administer the State Travel Management Program.
+
+A. The State Travel Manager will:
+
+• Oversee the operations of the Travel Management office.
+
+• Monitor contractor performance and entity compliance.
+
+• Work with state departments, boards, commissions, and institutions to ensure the effective and efficient
+operation of the Travel Management Program.
+
+• Serve as liaison with state departments, boards, commissions , and institutions for the appropriate
+resolution of problems and complaints; and
+
+• Provide informational material concerning the Travel Program to travel coordinators and employees.
+
+B. Department Directors will:
+
+• Be responsible for ensuring compliance with Section 25-3-41, Mississippi Code of 1972, by providing
+adequate internal control over employee travel; and
+
+• Designate an existing employee(s) to serve as a department travel coordinator(s) within the
+organization for the purpose of monitoring employee compliance with these regulations.
+
+C. Department Travel Coordinators will:
+
+• Monitor employee compliance in accordance with these rules and regulations.
+
+• Provide assistance to employees concerning questions and problems with travel arrangements and
+reimbursement.
+
+• Serve as liaison with the State Travel Manager's office.
+
+• Book airline/railway travel, vehicle rentals, and lodging reservations for that department's employees
+through one of the state contract travel agencies or by other methods. This is not meant to indicate that
+no one else can make such arrangements, but rather to suggest that it is easier to monitor employee
+compliance when travel is handled by one person; and,
+
+• Ensure that all employees are aware of and familiar with the guidelines set forth in this manual and that
+they understand that they are required to adhere to the established state travel policies and contracts.
+
+Section 2 - Travel Reimbursement
+
+103. Travel Reimbursement
+
+These regulations establish a State Travel Management Program under the jurisdiction of the Mississippi
+Department of Finance and Administration to ensure fairness and consistency in the application and
+administration of travel expense reimbursement and to reduce and control the state's costs related to all
+components of official state business travel.
+
+An employee traveling on official state business is expected to exercise the same care incurring expenses as
+would a prudent person traveling for personal reasons. Travel for business should be conducted at a minimum
+cost to achieve the success of the mission. Travelers shall request air, train, bus, hotel, and vehicle rental
+reservations as far in advance as possible and shall utilize the lowest logical rate available.
+
+Travel reimbursement will be made for all taxes paid by the traveler; however, when expenses are billed
+directly to the governmental entity, taxes must not be charged or paid.
+
+To be eligible for reimbursement at the state rate, the employee must have a W2 or receive the maximum state
+reimbursement rate allowed as per diem in lieu of salary. This applies to Board and Commissions. When an
+employee receives a per diem "in lieu of salary", they are considered "officers of the state".
+
+Travel Tip: If you haven't received your reimbursement within the typical time, the agency, through
+their Travel Coordinator, should contact MMRS/SPAHRS directly at 601.359.6570.
+
+Note: Entities who do not go through the Department of Finance and Administration for travel
+reimbursement will follow their own procedures for reimbursement of travel expenses.
+
+104. Travel Advances
+
+A. Travel Advances (In-State, Out-of-State, International)
+
+Travel advances are authorized by Section 25 -1-79, Mississippi Code of 1972 if approved by the
+Executive Director of the agency. Any officer or employee of the State traveling on official state
+business may receive an advance from state funds for the purpose of travel expenses. A contract
+worker paid through SPAHRS may receive an advance. An independent contractor; however, may not
+receive an advance. An advance will not be issued earlier than 20 days before the travel start date. As
+soon as the employee returns from the travel, a Travel Voucher must be completed and the advance
+settled.
+
+The Executive Director of the Mississippi Department of Finance and Administration has the authority to
+withhold payment of further claims for reimbursement of any officer or employee of the State if any
+outstanding advances have not been settled. (Section 25-1-81, Mississippi Code of 1972.)
+
+If an advance is not settled within 10 working days after the end of the month in which travel was
+completed the employee's paycheck will be held until the debt to the state is resolved. Only two (2)
+travel advances shall be outstanding at one time. Travel advances may not be made from petty cash
+accounts.
+
+Please refer to the MAAPP Manual Travel Section for more information.
+
+Travel Tip: Before requesting a travel advance, be sure that your entity allows them. If your entity
+does allow Travel Advances, fill in the dollar amount you are requesting in the "Travel
+Advance Amount" field on the Travel Authorization Form found here:
+http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/travel-forms-and-manuals/travel-authorization-forms/
+
+B. Prior to Trip Expenses (PTE) (In-State, Out-of-State, International)
+
+The Prior to Trip Expense (PTE) allows travelers to be reimbursed for lodging or public carrier ticket
+purchases paid prior to traveling. PTE can be paid any time prior to the trip and is not subject to the 20-
+day prior-to-travel limit imposed for travel advances. There is no limit on the number of PTEs that can
+be outstanding for each traveler.
+
+The PTE is necessary to accommodate payments required to be made in advance. Many hotels
+charge the first night's lodging to the traveler at the time reservations are made or the traveler may
+utilize the Internet to purchase airline tickets using a personal credit card. The PTE should only be
+incurred if it is in the best interest of the state.
+
+Please refer to the MAAPP Manual Travel Section for more information.
+
+Travel Tip: Before requesting the Prior to Trip Expense (PTE), be sure that your entity allows it. If
+your entity does allow (PTE's), fill in the dollar amount you are requesting in the "Travel
+Advance Amount" field on the Travel Authorization Form found here:
+http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/. When funding is verified the "Prior to Trip Expense
+Authorized: Yes or No" will be circled.
+
+Note: Entities who do not go through the Department of Finance and Administration for travel
+advances and prior to trip expenses will follow their own procedures.
+
+105. eWaiver Request Form
+
+The eWaiver Request Form (http://www.dfa.ms.gov/media/1533/ewaiver.pdf) is to be used to request a waiver
+from any standard travel procedures; however, eWaivers are not required when pricing is found for less than
+the state contract pricing.
+
+This form should be submitted for approval prior to making any reservations or commitments.
+
+On the form, select from the following, which are a list of possible reasons an eWaiver Request Form may be
+needed:
+
+• Requesting authority to pay an amount greater than the s tate contract
+• Requesting authority to rent a vehicle with a co st greater than the mid-size on state contract*
+• Requesting authority to purchase vehicle rental insurance
+• Requesting authority to rent a vehicle not on state contract
+• Requesting authority to pay a hotel other than the conference hotel
+• Requesting authority to pay greater than the least expensive cost comparison for airline tickets
+• Requesting authority to pay first-class or business-class airfare (six hours or longer non-stop)
+• Other
+
+Provide a clear explanation and all necessary information that prove s the request to be economical or
+
+otherwise in the best interest of the State. Failure to provide adequate information will cause delay and may
+potentially cause rejection of the request. All applicable cost information, such as contract fare, lowest
+available fare, conference hotel rate, actual rate paid, etc., should be provided.
+
+The form should be completely filled out and signed by the entity head or designee before submitting the form
+to the State Travel Office.
+
+Approval of the eWaiver Request Form will depend on the State Travel Office being able to clearly determine
+the anticipated cost to the State and/or any anticipated savings.
+
+The eWaiver Request Form should be attached to the employee 's Travel Voucher when the voucher is
+submitted for reimbursement.
+
+Universities are exempt from submitting eWaivers effective August 15, 2012; however, each University shall
+maintain in its own travel policies and procedures regarding the waiver process at the University. Each
+University traveler should follow the University's policies and procedures for waivers . The University should
+maintain all records of deviations from state travel policy guidelines in its files for auditing purposes.
+
+It is the responsibility of the agency to ensure its employees are familiar with and adhere to established
+state travel policies.
+
+Travel Tip: eWaivers should be emailed to travel@dfa.ms.gov. This results in faster approval and
+less paperwork for all involved. Use the eWaiver form found on the Office of Purchasing,
+Travel and Fleet Management's website located here:
+http://www.dfa.ms.gov/media/1533/ewaiver.pdf .
+
+*eWaivers are not required to be submitted when a vehicle is rented using a state
+contract vendor to carry multiple eligible passengers or many bags and equipment are
+required to be transported. A note should be attached to the Travel Voucher and signed
+by the Agency Head or designee when this occurs.
+
+Note: This section does not apply to Governing Authorities, School Districts or Universities,
+although it may be adopted for use by such entities.
+
+106. Travel Reimbursement Voucher
+
+The Travel Reimbursement Voucher can be found on the OPTFM Travel Information website at :
+http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/.
+
+Although the Office of Purchasing, Travel, and Fleet Management publishes this form on our website,
+the Office of Fiscal Management should be contacted when questions arise regarding the status of the
+form or if help is needed in filling out the form. This is not an OPTFM document.
+
+• Travel Vouchers must be typed or completed in ink and signed by the traveler. The signature is a
+certification by the traveler that reimbursement is being requested for actual expenses that are valid
+business expenses.
+
+• All Travel Vouchers must have the original invoices for which reimbursement is claimed attached.
+
+Invoices must be submitted for hotel, airfare , airport parking, and other charges in excess of $10.
+
+• The traveler should indicate that phone calls itemized on a hotel bill are business-related.
+
+• Travel reimbursement will be made for all taxes paid by the traveler; however, when expenses are
+billed directly to the governmental entity through direct bill or through the State Travel Card, taxes shall
+not be charged and paid.
+
+• When conference hotel rooms are booked, a copy of the conference literature showing the rates must
+be attached to the Travel Voucher.
+
+• Meals shall not be claimed as expenses if the meals are included in the conference registration fee.
+
+• Meal tips should be included in the actual cost of the meal unless the inclusion of the tips causes the
+meals to exceed the Department of Finance and Administration's maximum daily meal reimbursement.
+If the daily meal limitations are exceeded, then the tips can be separated and recorded as other
+expenses. All tips reported in this manner should be totaled for the day and not exceed 20% of the
+maximum daily meal reimbursement or the actual meal expense, whichever is less.
+
+• The single hotel room rate must be written across the face of the invoice if more than one guest is
+listed. Reimbursement is made only for the single room rate.
+
+• If two or more travelers share a hotel room, each should report their pro rata share of the costs. If one
+of the travelers does not have an original hotel invoice, a copy of the invoice, along with the name of the
+traveler who submitted the original invoice, should be submitted with the Travel Voucher.
+
+• For travel in a privately owned vehicle, the mileage between points of travel should be made from the
+most direct practical route.
+
+• Travel Card expenses may now be reported on the Travel Voucher.
+
+More information on the Travel Voucher can be found in the MAAPP Manual Travel Section.
+
+Travel Tip: For assistance in filling out this document correctly, refer to instructions in the DFA
+MAAPP Manual found in the DFA Resource Library located here: MAAPP Manual Travel
+Section and click on "Travel Voucher". For further assistance, please contact t he DFA
+Office of Fiscal Management at 601.359.3538.
+
+Travel Tip: If you haven't received your reimbursement within the time normally allotted, you or your
+Travel Coordinator may call DFA 's Office of Fiscal Management for the status of the
+reimbursement at 601.359.3538.
+
+Note: Entities who do not go through the Department of Finance and Administration for
+reimbursement should contact their own Travel Office for status updates.
+
+Section 3 - Transportation
+
+107. Travel Routing
+
+Whether by public transportation, privately owned vehicles, state-owned vehicles, etc., reimbursement will be
+made for the most direc t practical route. The least expensive and most practical method of transportation
+should be used.
+
+A. Trip Optimizer System
+
+Each state agency subject to oversight by the Bureau of Fleet Management shall use the Trip Optimizer
+System developed and administered by the Department of Finance and Administration , Office of
+Purchasing, Travel and Fleet Management, in computing the optimum method and cost for travel by
+state officers and employees using a motor vehicle where the travel will exceed one hundred (100)
+miles per day and the officer or employee is not driving a state-owned or state-leased vehicle that has
+been dedicated or assigned to the officer or employee.
+
+The Trip Optimizer System is used to determine the most cost -effective method of travel by motor
+vehicles, whether those vehicles are owned by the state agency, leased by the state agency, or owned
+by the officer or employee, and shall be applicable for purposes of determining the maximum
+authorized amount of any travel reimbursement. The Trip Optimizer System provides a calculation of
+rates, enabling the accounting for the distance that an officer or employee must travel to pick up a
+rental or state fleet vehicle, and accounts for the long -term rate discounts offered through the state
+purchasing contracts for vehicle rentals.
+
+The maximum authorized amount of travel reimbursement related to motor vehicle usage shall be the
+lowest cost option as determined by the Trip Optimizer System. All travel claims submitted for
+reimbursement shall include the results of the Trip Optimizer System indicating the lowest cost option
+for travel by the state officer or employee. A copy of the calculation must be submitted with the travel
+reimbursement voucher as well as kept on file at the agency in order for vehicle travel to be reimbursed,
+or if no reimbursement is requested, must be kept on file at the agency.
+
+Note: This shall not apply to travel by state officials in motor vehicles driven by the official or in vehicles
+used for the transport of the official. The exemption in this paragraph applies only to the state official
+and not to the staff or other employees of the state offic ial. "State official" means statewide elected
+officials and the elected members of the Public Service Commission. See Section 107.C Exemptions
+for more information.
+
+B. Using the Trip Optimizer System
+
+The Trip Optimizer is an Excel spreadsheet with variables that will help you determine whether renting
+a vehicle or using a privately-owned vehicle (POV) is the most inexpensive option for the State .
+
+Access the Trip Optimizer System on the Office of Purchasing, Travel and Fleet Management's website
+found here: http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/.
+
+Additionally, employees should use the DFA Trip Optimizer Decision Flow Chart as a guide.
+
+Variables will need to be entered into the calculator for:
+
+• Total miles to be traveled where travel will exceed 100 miles per day .
+
+• Total days in the trip (in 24-hour increments).
+
+• Total miles to Rental Car Location.
+
+• Vehicle rental costs. Daily/Weekly rates may be found on the Vehicle Rental Rates Tab of the
+Optimizer. You will need to call the location and provide the contract # or corporate ID # (also
+on the Vehicle Rental Rates Tab) and ask what allowable fees will be added to the total ,
+including tax from the City you will be renting only if you are not using direct bill or an agency
+travel card, to be entered into the Miscellaneous Fees field.
+
+• Cost of gasoline per gallon. Utilize the higher cost between the City from which the travel will
+begin and the destination.
+
+• Average gas mileage for a rental car to be utilized (see Average MPG Tab of Optimizer).
+
+The variables listed above will calculate which method of travel is the most economical use of state
+resources.
+
+NOTE: The Trip Optimizer System calculation must be performed prior to traveling. In the
+event any variable values differ from those estimated prior to travel, a second calculation must
+be performed and attached to the Travel Voucher along with the original calculation to
+substantiate any request for an increase in allowable reimbursements.
+
+C. Exemptions
+
+By its nature, the Trip Optimizer System is an estimate which serves to mitigate the cost of employee
+travel to the State. It will not encompass every possible scenario. For example, emergency situations
+may arise which will result in the inability to perform the calculation prior to travel. In such situations, a
+written justification signed by the agency head must be attached to the Travel Voucher instead of the
+Trip Optimizer System calculation. A sample form of the written justification is provided on the Travel
+website.
+
+Additionally, some federal grant agreements may exclude reimbursement for rental vehicles. In t hat
+instance, a Trip Optimizer calculation does not have to be performed. The grant number must be
+provided on the Travel Voucher when seeking reimbursement.
+
+108. Combining Business Travel with Personal Travel
+
+Business travel and vacation/personal leave may be combined when all of the following conditions are met:
+
+• The primary purpose of the trip is official state business.
+
+• The employee uses his approved leave for the personal part of the trip.
+
+• The state agency incurs no expenses beyond what it would have incurred had there been no personal
+travel involved in the trip. (If the employee would normally be expected to arrive the day before or
+remain in the area of official business overnight and return the following morning, and does so,
+expenses for either/both night(s) and the appr opriate meals will be allowed.); and,
+
+• The contract travel agency should be advised that the business part of the ticket will be billed to the
+state and the personal travel part to the employee's personal credit card at the time the transportation
+reservations are made.
+
+Note: Business-related airfare combined with personal airfare is an unauthorized expense when using
+the Travel Card.
+
+109. Vehicle Travel
+
+A. Private Vehicle Used for State Business
+
+Reimbursement for the use of a personal vehicle for official state business (including private airplanes
+flown by the employee) is based on actual miles traveled and will be at the same rate that federal
+employees are reimbursed for using private vehicles for official federal business travel. The General
+Services Administration, commonly referred to as GSA, not the IRS, publishes this rate. The current
+reimbursement rate is listed in the Mileage Reimbursement Rate memo (http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/).
+Mileage reimbursement shall not exceed the maximum published rate. Local boards may set a rate
+that shall not be less than the rate referenced above and not greater than the maximum reimbursement
+rate for state employees.
+
+When two or more employees travel in one private vehicle, only one travel expense at the authorized
+reimbursement rate per mile shall be allowed. The person claiming reimbursement shall report the
+names of other state employee passengers. If a cost comparison must be made between driving vs.
+flying costs, see Section 108.D.
+
+The State does not reimburse private vehicle mileage for optional travel.
+
+Entities must establish in-house guidelines that are consistent with OPTFM policy in their agency travel
+manual for mileage reimbursements of private vehicles submitted to DFA on travel vouchers. These
+guidelines should address procedures used to determine if government-owned vehicles are available or
+not. It should also include procedures used to determine mileage reimbursement rates charged on
+employee travel vouchers. It is the agency's responsibility to maintain all documentation for audit
+purposes supporting rates reimbursed and the documentation must be available to DFA or the Office of
+
+the State Auditor if requested.
+
+Temporary Place
+of Work
+Official
+Residence Regular Place of
+Work
+Never
+
+Reimbursable
+Always
+Reimbursable
+Reimbursable if you
+have a regular or
+main job at another
+location
+
+Quick Tip:
+
+When Are Transportation Expenses Reimbursable?
+
+Travel Tip: GSA keeps an archive of past mileage rates . This can be found by going to
+http://www.gsa.gov/mileage, and clicking on the link that reads "POV Mileage Rates
+(Archived)".
+
+B. Rental Vehicle Used for State Business
+
+When a rental vehicle is used for official state business within the state, the actual cost of the rental
+vehicle and fuel can be claimed for reimbursement only when such rental is less expensive than the
+current mileage reimbursement rate referenced in the Revised Mileage Reimbursement Rate memo
+(http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/.) Rental vehicles as well as fuel for rental vehicles are authorized charges on the
+Travel Card.
+
+Travelers are required to show the comparison of the total rental vehicle expense to the total mileage
+expense. Reimbursement for the lesser of the two expenses shall be shown and claimed on the Travel
+Voucher.
+
+A mid -size vehicle is normally the largest rental that will be reimbursed. Naturally, there will be
+occasions for which a larger vehicle will be required in order to carry out the State's business. An
+eWaiver request form should be submitted along with the Travel Voucher for reimbursement .
+eWaivers are not required to be submitted when a vehicle is rented using a state contract
+vendor to carry multiple eligible passengers or many bags and equipment are required to be
+transported. A note should be attached to the Travel Voucher and signed by the Agency Head
+or designee when this occurs.
+
+Charges for rental cars shall be allowed only when there is demonstrated cost savings, including
+compensated employee time, over other modes of transportation such as buses, subways, taxis, etc.
+Only the rental vehicle that is consistent with the size requirements of the business task to be
+performed will be reimbursed. The cost of rental vehicles for personal use will not be reimbursed.
+
+1. In-State Vehicle Rentals
+
+The In-State Vehicle Rental contract is referenced on the OPTFM Travel Information website at
+http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/. The corporate identification number listed in the contract
+must be referenced to obtain the state contract price. If asked, when picking up the vehicle, be
+prepared to show identification. An employee name badge, business card, or letter from the
+supervisor will be sufficient. The contract references coverage of insurance information. The
+option to purchase insurance should always be declined when utilizing this state
+contract.
+
+Fill the vehicle with gasoline prior to return. You may be charged up to the amount per gallon as
+listed in the state contract referenced above for a full tank of gasoline even if the tank is 3/4 full
+when returned.
+
+Travel Tip: To use this contract, click on the link above and contact a local dealer. If there is a
+reference code or corporate ID number, use this number when making reservations.
+Remember to decline the option to purchase insurance. If you encounter issues with the
+rental, contact the Contract Administrator listed in the contract.
+
+2. Vehicle Rental Insurance
+
+The current vehicle rental contracts include unlimited mileage and CDW/LDW insurance. The
+option to purchase insurance should always be declined when a vehicle is rented
+utilizing the state contract. Insurance purchases will not be reimbursed . Entities should
+purchase CDW/LDW only when a rental vehicle is rented not utilizing the state contract.
+
+You must always be covered by insurance either provided by the contract or by purchase,
+should you utilize a vendor that is not on state contract.
+
+3. Regional Price Differentials
+
+Regional price differentials will be added to the daily rate at cities specified in the contract. The
+rate quoted by the travel agency will include any applicable differentials.
+
+Note: Rental Vehicles as well as fuel for vehicle rentals are authorized expenses on the Travel
+Card.
+
+C. State-Owned Vehicle
+
+Actual operating expenses incurred in the use of state -owned vehicles for official travel will be
+reimbursed based on information found in the Fleet Manual, which is available on the OPTFM
+website at: http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-fleet-management/.
+
+Note: Fuel for state-owned vehicles is not an authorized expense on the Travel Card.
+Please reference the Fleet Manual as listed above for the appropriate method of
+payment for fuel.
+
+D. Calculating Reimbursement for Driving vs. Flying
+
+When travel is by private vehicle, the total travel expenses reimbursed, including meal and lodging
+costs incurred as a result of driving instead of flying, shall not exceed the cost of the lowest unrestricted
+airfare unless a complete written justification signed by the employee Agency Head determines that it is
+in the best interest of the agency that the employee drive, or that, on comparison of "total driving" and
+"total flying" expenses, it is less expensive to drive than to fly. If the employee chooses to drive and
+expenses exceed the cost of the lowest unrestricted airfare, reimbursement will be limited to the cost of
+flying.
+
+To determine reimbursable driving expenses the "total cost of driving" must be compared with the "total
+cost of flying".
+
+"Total cost of driving " shall include enroute meals, enroute lodging, and the official rate for mileage
+reimbursement when a private vehicle is used for state business.
+
+"Total cost of flying" shall include the lowest unrestricted airfare, any charges for shipping of equipment
+and/or supplies required at the destination, and all required ground transportation at the destination,
+e.g., taxis to/from the meeting site. If a vehicle is deemed by the Agency Head to be required at the
+destination, then the cost of a rental vehicle will also be included in this total cost for comparison.
+
+In order to be reimbursed for mileage, meals , and lodging for approved travel to/from an out-of-state
+destination when an employee drives and there exists reasonable air service, the Travel Voucher must
+include a written statement from the Agency Head specifically making one or the other of the following
+statements:
+
+"It is less expensive for (employee name) to use his private vehicle for travel on (date from), (origin),
+(date to), (destination)."
+
+"In my opinion, it is in the best interest of this agency that (employee name) use his private vehicle for
+travel on (date from), (origin), (date to), (destination)."
+
+This statement will require a complete justification by the Agency Head.
+
+If the driving expenses will be held to the lowest unrestricted air fare, that fare should be checked and
+noted that reimbursement is being restricted to that amount, or if it is evident that driving is cheaper
+than flying, such as (to/from New Orleans, Memphis, Mobile, Birmingham), no further authorization is
+required.
+
+If a cost comparison must be made between driving v ersus flying costs, the cost of flying should be
+multiplied by the number of passengers and compared to the cost of driving.
+
+110. Public Carrier (Airplane)
+
+A. Airline Travel - General Information
+
+Employees may make reservations for public carrier (airline, etc.) travel arrangements using a state
+contract travel agency or by booking flights over the Internet. A receipt (passenger receipt) and itinerary
+shall accompany the request for reimbursement.
+
+For all flights that are not booked through one of the contract travel agencies, the state agency must
+maintain in its files a cost comparison showing a minimum of two (2) fares. This cost comparison must
+show the fare and any issuance cost and must show savings and shall be submitted along with the
+employee's Travel Voucher. Neither of these quotes should be through a travel agency if they will
+not be used.
+
+If the employee must book a flight at a price in excess of the lowest rate on the cost comparison, the
+agency must, prior to booking the flight, submit an eWaiver Request found on the OPTFM website at
+http://www.dfa.ms.gov/media/1533/ewaiver.pdf to the Office of Purchasing, Travel and Fleet
+Management and include the amount of cost and the justification of using that fare on the eWaiver.
+
+When traveling by regularly scheduled air service, travelers are to utilize their local airport. Use of
+the local airport is assumed to result in travel costs that are most economical to the State. Mileage
+to and from the airport is reimbursable.
+
+The criteria for determining which airport or mode of transportation to use should be based on travel
+costs that are most economical to the State. All costs should be considered, i.e., travel, labor, lodging,
+meals, mileage reimbursement, etc., in making the determination.
+
+The least expensive routing shall be used. In calculating the difference between airfare and travel by
+personal vehicle, factor in additional lodging and meal expenses, taxi fares, parking, and other airport
+related expenses.
+
+Alternate departure and return dates and times should be considered by all travelers when they will
+result in lower fares. It is incumbent upon the traveler to provide information to the travel agent which
+could result in lower fares. If routing or accommodations other than the most economical are required,
+the Agency Head or designee may specify alternate routing and accommodations and eWaiver
+Requests found here: (http://www.dfa.ms.gov/media/1533/ewaiver.pdf ) shall be submitted to the
+Office of Purchasing, Travel and Fleet Management.
+
+"Direct" does not mean nonstop. It only means that you will not be changing aircraft. Choose the flight
+with the fewest stops for fewer chances for delay. A "direct" flight with only one stop might be
+preferable to connecting nonstop flights, however.
+
+Preferred seating, b usiness, or first-class service may be authorized if at least one of the flight
+segments exceeds 6 hours. A flight segment is defined as time in the air between stopovers, changing
+aircraft, or change of airline. Preferred seating, business or first-class travel is not reimbursable unless
+approved in advance. A n eWaiver signed by the Agency Head or designee must be submitted and
+approved by OPTFM prior to the trip.
+
+Travel Tip: For all flights that are not booked through one of the contract travel agencies, the state
+agency must maintain in its files a cost comparison showing a minimum of two (2) fares.
+This cost comparison must show the fare and any issuance cost and must show
+savings and shall be submitted along with the employee's Travel Voucher. Neither of
+these quotes should be through a travel agency if they will not be used. This cost
+comparison must show the fare and any issuance cost and must show savings and shall
+be submitted along with the employee's Travel Voucher.
+
+B. Frequent Flyer Program Awards
+
+Any bonus or promotional gratuity received as a result of official state travel shall be used to offset or
+reduce the cost of subsequent official state travel. Under no circumstances can the traveler keep a
+bonus or other promotional gratuity so earned for his own personal use. As sufficient mileage, earned
+as a result of state-paid travel, is accumulated, free ticket coupons will be applied for and used to offset
+official state travel costs. Follow airline procedures to exchange the miles for a ticket.
+
+C. Airline Penalty Fares
+
+Airline penalty fares may be utilized when needed. The DFA Office of Fiscal Management will honor
+requisitions for warrants in payment of penalties or administrative fees when business circumstances
+require that reservations be changed or canceled. Such tickets are non -transferable. Although the
+ticket is issued in the employee's name, the ticket belongs to the State.
+
+To obtain the lowest possible penalty fare, airline travel should be booked as far in advance as
+possible.
+
+Where the employee is required to go a day early to qualify for a lower-priced penalty airfare, the State
+will pay the additional lodging and meal expenses not to exceed the amount of savings in the airfare.
+
+Most carriers require that changes be made and re -ticketed on or before the departure date of each
+ticketed flight. You may be able to exchange the return portion for a fee. The carriers may also charge
+a fee for customers who standby for an alternate flight on their ticketed day of departure. Check with
+the airline or the travel agent for more information. A receipt for any fees charged should be attached
+to the Travel Voucher for reimbursement.
+
+D. Airline Reservation Changes
+
+1. Involuntary
+
+A note of explanation should be attached to the Travel Voucher and does not require a waiver if
+an involuntary airline reservation change results in additional reimbursable expenses.
+
+2. Voluntary
+
+Voluntary enroute changes in travel arrangements should be handled through the original
+source of the reservations. Check the Travel Agency Services contract
+(http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/. If the change is for personal reasons, the State will not
+reimburse any fees imposed by the airline or the travel agency. Emergency situations will
+require an eWaiver Request Form to be submitted to OPTFM for approval and the eWaiver
+must be attached to the Travel Voucher.
+
+If the traveler is outside the continental U. S. and changes are required, make the change as
+needed and attach a note of explanation to the Travel Voucher. Necessary eWaivers should be
+submitted upon return from the trip to OPTFM.
+
+E. Airline Travel Invoices
+
+Airline tickets purchased from a state contract travel agency shall be directly billed to the department's
+Cardless Travel Account, cardholder account, or personal credit card. The travel agent will not issue
+invoices for later payment. Contract employee's travel can be charged to the Cardless Travel Account
+and coded to contract travel.
+
+F. Airline Traveler Profiles
+
+State employees who travel frequently may expedite reservations and ticketing by having a "traveler's
+profile" on file at the travel agency. The profile will list such items as the passenger's name as it
+appears on frequent flier files, seating preference, credit card number, special meal requirements, and
+telephone numbers for home and office. The state contract travel agency that your agency chooses to
+use will provide this form for travelers.
+
+G. Cancellations/Refunds
+
+Tickets returned to a travel agency for cancellation or refund may be assessed a charge. Check with
+the Travel Agency for applicable fees. This charge will be applied to the account used for the original
+ticket invoice.
+
+H. Lost Airline Tickets
+
+When a ticket is lost after delivery of the ticket is accepted by the traveler or agency, any fee that the
+airline charges for searching and refunding lost tickets is the responsibility of the person to whom the
+ticket was delivered. When the ticket is lost by the employee , the employee must file a lost ticket
+application with the travel agency or the airline. There may also be an additional fee assessed by the
+travel agency for each lost ticket application filed.
+
+I. Passenger Facility Charges (PFCs)
+
+PFCs are fees approved by the Federal Aviation Administration allowing domestic airports to charge an
+enplanement fee for all departing fare-paying passengers . These fees may be assessed by any
+departure airport in all 50 States, U.S. Territories, and U.S. Possessions. All travel agents, airlines, and
+their ticketing agents are responsible for collecting these fees for the United States Government. Any
+such applicable PFC charges will be included in your ticket charge.
+
+J. Delayed or Canceled Flights
+
+Ensure that the airline or travel agent is able to contact you when there is a cancellation or delay. Give
+the travel agent your contact information and keep the agency's contact information with you. Check
+the status of your flight directly with the airline at least 24 hours prior to departure (48 hours for
+international flights). The easiest way to do this is by visiting the airline's website.
+
+If you are at the airport and find your flight is canceled or it appears it might be severely delayed ,
+contact your travel agent or the airline reservation office immediately for alternate flights.
+
+K. Overbooked Flights
+
+Airline rules vary on overbooking. Ask the travel agency or the ticketing airline for these rules.
+
+L. Baggage Allowance Information - Domestic and International
+
+Charges for baggage at check-in may vary per airline. Baggage fees are reimbursable expenses and
+are an authorized expense on the Travel Card. A receipt is required for charges in excess of
+$10.00.
+
+The employee should contact the travel agency or visit the airline 's website for baggage allowance
+information.
+
+M. Delayed, Lost, and Damaged Baggage
+
+Keep all items necessary for the trip in a carry -on bag if possible.
+
+Check with the airline for policies regarding what can be carried on and what can be carried in your
+baggage.
+
+Attach strong, well-marked identification tags to luggage and affix an extra I.D. inside each bag.
+Remove old baggage tags from previous trips.
+
+Check your luggage before leaving the airport for visible signs of damage. You should make a claim for
+lost or damaged articles as soon after arrival as possible.
+
+If you find that your luggage is not at the airport, go to the airline's lost baggage office or to the ticket
+counter and file a "lost baggage claim".
+
+Note: Baggage fees are an authorized expense on the Travel Card.
+
+N. Flight Insurance
+
+Travel Accident Coverage is included for any scheduled airline transportation when a ticket is
+purchased with the OPTFM Travel Card. Some of the state contract travel agencies also provide flight
+insurance with ticket purchases. Additional flight insurance will not be reimbursed.
+
+Section 4 - Travel Card Program
+
+111. Travel Card Program Overview
+
+The Travel Card is a travel tool that may replace the traditional purchasing method of purchasing airline
+tickets, booking hotel rooms, paying for vehicle rental services, and more. The efficiencies and flexibility
+of the Travel Card allow users to focus on the value -added aspects of their jobs. The savings from
+reduced paperwork and online processing can provide a direct benefit to an entity.
+
+Types of Travel Card Accounts
+
+Cardless Travel Account
+
+The cardless travel account allows travel-related expenses to be delegated to one person, the Program
+Coordinator, the designated person responsible for making official business travel arrangements for
+others, including non-entity employees traveling on official state business. Any travel-related services,
+such as travel agency fees, airfare, railway, vehicle rental, lodging, lodging deposits, travel-related
+conference registration, etc., which are normally directly billed can now be billed to this account.
+Registration and conference fees may be paid with the travel card via the telephone or Internet if the
+hosting organization accepts payment in this manner.
+
+This type of account is also called a "Ghost Account" or "BTA", which essentially means a plastic card is
+not issued. Instead of an actual card, the Program Coordinator will receive an account number, expiration
+date, and CVV code.
+
+Individual Travel Card Account
+
+This type of card allows for approved travel-related expenses to be made only by the individual who has
+signed a cardholder agreement for that card. This card is kept by the cardholder and is only used for
+travel on official entity business.
+
+Department Card Account
+
+This type of card allows for approved travel-related expenses to be made by one or more individuals who
+have signed a cardholder agreement for that card. This card is kept locked in a central location where the
+Travel Card Program Coordinator may check the card out and in as needed.
+
+Travel Card Payments
+
+Travel Card statements should be paid immediately whether or not travel has been performed. If the
+invoice is not paid within 45 days, a 1.5% penalty will be assessed for late payment. When requesting a
+Warrant for a late payment, a statement is required explaining the reasons payment was not made within
+45 days.
+
+Travel Card Guidelines
+
+The Travel Card Guidelines are available on the OPTFM Travel Information we bsite at:
+http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/.
+
+Additional information also located on the OPTFM Travel Information Website includes Applications for the
+Travel Card Program, the Travel Card Guidelines, more details on the types of travel card accounts, program
+coordinator information, cardholder responsibility, authorized and unauthorized expenses, and more. The
+website for this information is located here: http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/ and scroll down to Travel Card Program Application
+and Guidelines section.
+
+Section 5 - Conferences, Seminars, and Workshops
+
+112. In-State/Out-Of-State/International Conferences
+
+Section 25-1-83 of the Mississippi Code requires prior written approval from the department head for employee
+attendance at any convention, association , or meeting in order for expenses to be reimbursed. Such
+reimbursed expenses must then be annually reported to the Legislature.
+
+113. Conference Airlines
+
+Check conference materials to see if special airline discounts are offered. When a special airline discount rate
+is offered and conferees are instructed to go directly to an airline or a specific travel agency to obtain the
+discount fare, all fare and file number information may be given to a state contract travel agency. They will then
+attempt to obtain the conference rate, or lower rate, for the employee. Any time a lesser rate is obtained, an
+eWaiver is not required.
+
+114. Conference Hotels
+
+When hotel rooms are blocked for a conference, seminar, etc., and a special discounted hotel rate is provided,
+the employee should go through the conference housing bureau or directly to the hotel to obtain lodging. The
+state contract travel agencies will not make reservations for conference hotels. A copy of the conference
+literature showing the conference hotel and rate or the registration form which often includes the
+housing reservation must be attached to the Travel Voucher in order to be reimbursed. A memo from
+the employee is acceptable if there are no rates listed on the brochure.
+
+Reimbursement to employees for hotels guaranteed prior to completion of travel can be authorized using the
+PTE (Prior to Trip Expense) referenced in Section 104.B. of the State Travel Policy Rules & Regulations .
+
+Travel Tip: Be sure to check the cancellation policy. Hotel charges will not be reimbursed if the
+employee is negligent in canceling reservations in accordance with the hotel's policy.
+
+Reservations should be made as soon as possible to guarantee a stay in a conference
+hotel. An eWaiver request form is required for any lodging reimbursement greater than
+the conference rate or when an employee stays somewhere other than the conference
+hotel and shall be attached to the Travel Voucher for reimbursement. Sufficient
+justification is required to obtain approval on the eWaiver.
+
+Note: Governing Authorities, School Districts, and Universities using the Travel Card Program
+will follow their own procedures for eWaivers and travel advances/PTEs.
+
+115. Conference Meals
+
+Meals shall not be claimed as a separate item of expense on the Travel Voucher when included in the
+conference registration fee. If special circumstances exist, for example, a food allergy prohibiting one from
+eating the meal provided, an exception will be made if noted by the employee and signed by the Agency Head
+or designee and reimbursement will be provided for that meal.
+Fees charged for attending the official meetings of a convention or seminar where the meeting includes an
+additional meal cost not included in the registration fee which cause s the employee to exceed the daily
+maximum meal allowance will be reimbursed if supported by a n itemized receipt from convention officials.
+
+Alcoholic beverages are not reimbursable.
+
+The meal reimbursement rate shall be paid at the rate for the conference city location.
+
+Travel Tip: Example: If the conference is in Tupelo, MS but you stay in Memphis, TN, you will be
+reimbursed the maximum daily rate for Tupelo, MS.
+
+Note: Meals, alcohol, room service, etc., are not authorized to be charged on the Travel Card.
+
+Section 6 - International Travel
+
+116. General Information
+
+All travel outside the continental limits of the United States (Canada, Hawaii, Puerto Rico, and Mexico are
+outside) must be approved by the Department of Finance and Administration (excluding Universities) prior to
+departure. An approved Travel Authorization Form, which can be found on the OPTFM website
+(http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/) must be attached to the Travel Voucher (http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/) when any associated
+reimbursement or payment is requested. A copy of this form shall be used to request a travel advance if one is
+necessary. If actual expenses exceed the estimated expenses listed on the Travel Authorization form the
+original form shall be resubmitted showing the excess charges and again approved by the Department of
+Finance and Administration.
+
+A state contract travel agency may arrange for international travel, including lodging and vehicle rental services.
+They will also provide information on inoculation requirements and assistance in obtaining passports and visas
+when needed. Changes after departure from the continental United States will be made independently by the
+traveler.
+
+Note: Travel to Alaska is considered within the continental limits of the United States and meals would
+be reimbursed at the maximum state reimbursement rate allowed.
+
+Note: Governing Authorities, School Districts or Universities will follow their own procedures
+for International Travel.
+
+117. Approval Form Requirements
+
+A. Travel Authorization Form
+
+The Travel Authorization form is the standard form used by state officers, state employees, and board
+members of the State for requesting approval of travel, and is required to incur prior to trip expenses,
+and/or to receive travel advances. Any other form used by an agency must be approved by DFA's
+Bureau of Financial Control. The form must be used to request approval to travel outside the
+continental United States. Agencies may require the form for in -state travel when the traveler is
+attending a conference or seminar.
+
+The Travel Authorization Form is located on the DFA website under Office of Travel - Travel Forms:
+http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/.
+
+Note: Governing Authorities, School Districts, or Universities using the Travel Card Program
+are not required to use DFA forms for authorization or reimbursement purposes;
+however, the guidelines and forms mentioned above may be adopted.
+
+118. Currency Exchange for Travel Reimbursement Expense Voucher
+
+When converting foreign currency to dollars for the purpose of reimbursement, you must attach proof of the
+official rate of exchange to the Travel Voucher (http://www.dfa.ms.gov/dfa-offices/purchasing-travel) for
+reimbursement. Any official and documented statement of the official rate of exchange will be acceptable. It is
+recommended that the traveler obtain a currency conversion upon arrival at their destination so that the rate
+applicable to the dates of travel is documented.
+
+The rate of exchange from and to U.S. dollars can be obtained from any bank . This will be the rate of
+exchange for the specific date(s) given and may vary when the charge is transmitted to the employee's
+credit card. If there is a difference between the amount the employee is reimbursed and the amount charged
+to the credit card, an amended Travel Voucher may be submitted to correct the reimbursement. A copy of the
+original reimbursed Travel Voucher and a copy of the credit card charge must be included.
+
+Section 7 - Lodging
+
+119. General Information
+
+Primary responsibility for the reasonableness of amounts charged rests with the Agency Head or designee.
+"Government rates" must always be requested by all travelers and the rate confirmed both at the time
+reservations are made and at check-in when reservations are made by phone. If lodging is within the state of
+Mississippi, "state rates" should be asked for rather than "government rates."
+
+Commercial l odging other than hotels/motels, such as apartments, dormitories, etc., which are licensed
+businesses regularly offering lodging services to the general public may be used when they result in a lower
+cost, and an itemized receipt is required. Express check-out receipts that do not provide an itemized hotel bill
+are not acceptable.
+
+Employees are discouraged from using private/residential lodging accommodations and must obtain prior
+written approval from the Agency Head or his designee. If approval is given, an itemized receipt is required for
+reimbursement.
+
+When a contract travel agency makes lodging reservations, they will provide written confirmation of the
+reservation and rate. The rate quoted on the written confirmation is guaranteed by the contract travel agency,
+but any claim for discrepancy in rates must be documented with a copy of the confirmation and hotel bill. Proof
+that the hotel reservation was made by a contract travel agency must accompany the Travel Voucher.
+
+Since hotels charge for unkept reservations, changes in travel plans must be communicated to the hotel as
+soon as possible. Exceptions may be made for emergencies beyond the employee's control.
+
+Cancellation should always be made using the hotel/motel's policies. Note: If the traveler's reservations were
+made using an online booking tool, that site must be used for cancellation. If the reservations were made
+directly with the hotel, cancellations should be made through the hotel. The confirmation sheet will usually
+provide more details on how to cancel should the traveler need to do so.
+
+120. Lodging Shared With Someone Not a State Employee
+
+If a member(s) of the state employee's family or other non-state employee travels with the officer or employee,
+the employee shall claim reimbursement at the single hotel/motel room rate only. Express check-out receipts
+which do not provide an itemized hotel bill are not acceptable.
+
+121. Lodging Shared With State Employee
+
+If more than one employee shares a hotel/motel room, each employee may report a pro-rata share of the costs
+on his travel reimbursement request or all lodging expenses may be shown on one reimbursement request,
+provided that both travelers note the sharing of the room on their individual reimbursement requests. Separate
+hotel receipts may be requested when registering. If the employee does not have an original hotel receipt, he
+shall write and sign the following statement on the copy, "This is a true and correct copy of the hotel receipt."
+Express check-out receipts that do not provide an itemized hotel bill are not acceptable.
+
+122. In-State Lodging
+
+"Government rates" must always be requested by all travelers and the rate confirmed both at the time
+reservations are made and at check-in so the State saves money whenever possible.
+
+Unless the agency pays the hotel directly, employees may pay taxes and be reimbursed; however,
+employees should request that taxes not be assessed when traveling on state business. W hen
+payment for in -state lodging is made with the UMB Travel Card, sales tax is considered an
+unauthorized expense and as such should not be placed on the travel card.
+
+Reimbursement is based up on actual cost as shown on the itemized receipt, minus unauthorized
+charges. Express check-out receipts that do not provide an itemized hotel bill are not acceptable.
+
+A business card and/or employee identification badge should be adequate if proof of employment is
+requested at the time of check-in.
+
+Most hotels require cancellation of room reservations be made at least 72 hours prior to scheduled
+check-in, otherwise, your credit card will be charged for the first night. If the reason for cancellation is
+business or emergency related this charge may be reimbursed.
+
+Reservations may also be made using online booking tools. More than one quote is not necessary
+for lodging that is less than the government rate found here:
+https://www.gsa.gov/portal/content/104877 or when booked through one of the state contract
+travel agencies. However, the state agency must maintain in its files a cost comparison
+showing a minimum of two (2) quotes if the rate is higher than the government rate if the
+reservations are made by phone, or if you do not go through a state contract travel agency.
+Neither of these quotes should be through a travel agency if they will not be used. This cost
+comparison must show the price listed by the online vendor and must show savings and shall
+be submitted along with the employee's Travel Voucher.
+
+Cancellation should always be made using the hotel/motel's policies. Note: If the traveler's
+reservations were made using an online booking tool, that site must be used for cancellation. If the
+reservations were made directly with the hotel, cancellations should be made through the hotel. The
+confirmation sheet will usually provide more details on how to cancel should the traveler need to do so.
+
+Travel Tip: Don't forget to ask for the "government rate" when making reservations at a hotel.
+
+Express check-out receipts that do not provide an itemized hotel bill are not acceptable.
+
+Hotel maid service tips may be reimbursed between $3.00 - $5.00 per night. The State
+generally does not reimburse for more than $5.00 per night.
+
+Valet parking tips may be reimbursed between $2.00 - $5.00.
+
+Note: Travel Cards may not be used for meals/incidentals/room service/alcoholic beverages as
+outlined in the Travel Card Guidelines.
+
+123. Out-Of-State Lodging
+
+Interstate discounted lodging is often available through government rate programs and honored by participating
+properties of most major chains (e.g., Holiday Inns, Hyatt Inns, Marriott, Hilton, Sheraton, Ramada, and others).
+The state contract travel agencies will check for the government rate or the lowest rate available . When
+making your own lodging arrangements, always request government rates.
+
+A business card , employee identification badge, or letter from the agency should be adequate if proof of
+employment is requested at the time of check-in.
+
+Most hotels require cancellation of room reservations be made at least 72 hours prior to scheduled check-in,
+otherwise, your credit card will be charged for the first night. If the reason for cancellation is business or
+emergency related this charge may be reimbursed.
+
+Travel Tip: Express check-out receipts that do not provide an itemized hotel bill are not acceptable.
+
+Hotel maid service tips may be reimbursed between $3.00 - $5.00 per night. The State
+generally does not reimburse for more than $5.00 per night.
+
+Valet parking tips may be reimbursed between $2.00 - $5.00.
+
+Note: Travel Cards may not be used for meals/incidentals/room service/alcoholic beverages .
+
+Section 8 - Meal Allowances
+
+124. General Information
+
+Officers and employees of the state and political subdivisions shall be reimbursed the actual cost of meals
+incident to official travel, not to exceed the daily maximums for the specific location of assignment. Section 25-
+3-41(4) does not require receipts for meal reimbursements; however, DFA recommends that agencies and
+governing authorities require them to sufficiently document reimbursements. However, it is not necessary for
+agencies to include these receipts with the Travel Voucher when submitting for reimbursement to the DFA
+Office of Fiscal Management.
+
+The amount allowed for individual meals when traveling within the continental United States (including Alaska)
+shall be at the discretion of the governing authority or the department head, provided that the total does not
+exceed the maximum state reimbursement rate listed below.
+
+Meal reimbursements are not allowed within the official duty station.
+
+Alcoholic beverages are not reimbursable.
+
+The State does not reimburse private vehicle mileage for optional travel.
+
+Note: Travel Cards may not be used for meals and alcoholic beverages.
+
+125. High-Cost Area Meal Allowances
+
+In-state and out -of-state high-cost areas are those cities designated in the Federal Register as having a
+prescribed maximum per diem daily rate of $ 149.00 or higher. Reimbursement shall be made based on the
+following sliding scale, which always remains constant, not to exceed the following rates.
+
+Federal Register
+Maximum Per Diem Rate
+Maximum State
+Reimbursement Rate
+$1 - $149
+
+$150 - $164
+
+$165 - $179
+
+$180 - up
+$41.00
+
+$46.00
+
+$51.00
+
+$56.00
+
+A list of the maximum state reimbursement rates for meals in high-cost areas has been pre-calculated for your
+convenience and is available on the OPTFM Travel Information website at: http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/. If you cannot
+find the city you are looking for, locate the county and use the amount listed. If neither the city nor county is
+listed, the maximum state reimbursement rate is $ 46.00/day.
+
+Note: Travel to Alaska is considered within the continental limits of the United States and would be
+reimbursed at the maximum state reimbursement rate allowed.
+
+Note: Travel Cards may not be used for meals/incidentals/room service/alcoholic beverages .
+
+126. Taxable and Non-Taxable Meals
+
+Travel Vouchers require that actual meal expenses be reported separately from lodging and that taxable meals
+be separated from non-taxable meals. Pursuant to the Internal Revenue Service, any reimbursement of meal
+expenses for travel not including an overnight stay is considered non-deductible compensation and therefore
+taxable to the traveler. Entities have the discretion to determine if taxable meal reimbursements will be paid.
+Certain travelers within an agency may be paid taxable meals, while others are not.
+
+If taxable meals will be reimbursed by your employer, employee W-4 forms must be adjusted to take care of
+additional tax liability , and all employment taxes withheld from the reimbursement matched and properly
+reported. These payments are reported on the traveler's W -2 as wages.
+
+For more information on taxable meal reimbursement reference Subsection 13.20.30 of the DFA MAAPP
+Manual.
+
+Note: Travel cards may not be used for meals.
+
+127. Meal Tips
+
+Meal tips should be included in the actual meal expense unless the inclusion of the tips would cause the meals
+to exceed the maximum daily limitations placed on meals by the Department of Finance and Administration. If
+the daily limitation is exceeded, the employee is allowed to record meal tips for each day under other
+authorized business expenses. Total meal tips shall not exceed 20% of the maximum daily meal
+reimbursement claimed.
+
+Travel Tip: Total meal tips shall not exceed 20% of the maximum daily meal reimbursement claimed.
+
+Note: Travel cards may not be used for meals.
+
+Section 9 - Contract Travel Agencies
+
+128. General Information
+
+The Office of Purchasing, Travel and Fleet Management has approved a list of travel agencies
+(http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/) to provide travel services for the officers and employees of the State of Mississippi. This
+multiple-award contract is based on proposals received from various agencies .
+
+Employees may make reservations for all travel arrangements, either through one of the state contract travel
+agencies or by other methods.
+
+When travel arrangements are handled by a state contract travel agency an itinerary form will be attached to
+the inside of the ticket jacket which will include all travel confirmations. A copy of this itinerary form must be
+attached to the Travel Voucher for reimbursement. Travelers should keep their copy of the ticket
+itinerary/invoice to avoid fees charged by the travel agency for a dditional copies.
+
+The state contact travel agencies are not required to enforce state rules and regulations, only to administer
+them, and will book arrangements as specified by the traveler.
+
+Travel Tip: To utilize the contract, each state agency may choose one or more state contract travel
+agencies to handle its travel requirements. Simply contact the travel agency contact
+listed in the contract and identify yourself as a state employee. It is our recommendation
+that the agency advise its employees which travel agency(s) is to be used and designate
+a liaison to work with the travel agency(s).
+
+More than one quote is not necessary for all flights that are booked through one of the
+state contract travel agencies. However, the state agency must maintain in its files a
+cost comparison showing a minimum of two (2) fares if you do not go through a state
+contract travel agency. Neither of these quotes should be through a travel agency if they
+will not be used. This cost comparison must show the fare and any issuance cost and
+must show savings and shall be submitted along with the employee 's Travel Voucher.
+
+129. Payment to Travel Agencies
+
+The methods for paying the state contract travel agencies for reimbursable expenses are through charges on
+the Travel Card, the employee's personal credit card, or direct bill upon approval by the travel agency.
+
+Section 10 - Other Allowable Expenses
+
+130. Phone Charges, Postage, and Other Expenses
+
+Phone calls, postage, and other expenses included in the "other authorized expenses" column must be certified
+at the bottom of the Travel Voucher by the employee that they are for valid business expenses. The employee's
+signature on the Travel Voucher qualifies as such certification. Phone calls itemized on a hotel bill should be
+circled and an indication made if they were for business or deducted and not claimed if they were personal
+calls. Calls home are considered personal expenses and are not reimbursable. Calls to the office to check
+voice mail are reimbursable. Calls via personal cell phones are not reimbursable.
+
+131. Taxi Fares
+
+Fares for taxis or airport transportation services in excess of $10.00 require a receipt which must be attached to
+the Travel Voucher to receive reimbursement. The State does not reimburse taxi fares for personal travel.
+
+Travel Tip: The average tip for taxi services is between 15% - 20% of the total fare. Tips that exceed
+$10.00 must be justified and require a receipt to be attached to the Travel Voucher.
+
+132. Miscellaneous Charges
+
+A. Baggage Handling
+
+Skycaps: Reasonable charges will be allowed without a receipt. Reasonable is usually defined as $1
+per bag for each level of handling.
+
+Counter: Charges for baggage at check-in may vary per airline. These charges are allowable and will
+be reimbursed. Baggage fees are an authorized expense on the Travel Card. A receipt is required
+for charges in excess of $10.00.
+
+B. Hotel/Airport Parking
+
+For charges in excess of $10.00/day, receipts must be attached to the Travel Voucher.
+
+Travel Tip: Valet parking tips may be reimbursed between $2.00 - $5.00.
+
+Shuttle tips may be reimbursed up to $5.00 per ride and baggage handling may be
+reimbursed at $1.00 - $2.00/bag.
+
+C. Laundry Charges
+
+One reasonable laundry expense is reimbursable for each seven (7) consecutive days that travelers are
+required to be away from their official duty station on official state business. Laundry charges may not
+be made once the employee returns home. If the employee will be away from home for seven days, a
+reasonable laundry or cleaning expense will be reimbursed recognizing that it would be difficult to carry
+more than five (5) days of clothing at a time. If after a written justification, the Agency Head deems it
+necessary for an employee to be paid for additional cleaning/pressing charges the attachment of the
+justification to the Travel Voucher will be sufficient for reimbursement.
+
+Section 11 - Forms
+
+133. Travel Forms
+
+A. DFA MAAPP Manual Travel Section - Travel Voucher Form
+
+B. DFA MAAPP Manual Travel Section - Travel Authorization Form
+
+C. eWaiver Form
+
+D. Vendor Incident Form
+
+Note: Entities who do not go through the Department of Finance and Administration for travel
+reimbursement will follow their own procedures for reimbursement of Travel Vouchers.
+
+Section 12 - Revisions
+
+134. Revision Description
+
+02/01/14 - Added language allowing fuel as an authorized purchase for rental vehicles when using the Travel
+Card in Section 108B.
+_______________________________________________________________________________________
+
+02/25/14 - Added language allowing cardless accounts to be used to pay for non-employer travelers traveling
+on official state business in Section 110. Travel Card Information.
+_______________________________________________________________________________________
+
+03/01/14 - Removed all but general information to Travel Card information Section 110. Users may visit
+the Travel Information Website at: http://www.dfa.ms.gov/dfa-offices/purchasing-travel-and-fleet-management/bureau-of-purchasing-and-contracting/travel/ for the most recent Travel Card Guidelines.
+_______________________________________________________________________________________
+
+03/31/14 - Added Flight Insurance section to Section 109 N.
+_______________________________________________________________________________________
+
+04/08/14 - Added illustrated example of when mileage can be reimbursed to Section 108 A.
+_______________________________________________________________________________________
+
+12/16/16 - Illustrated example of when mileage can be reimbursed modified for clarification purposes in
+Section 108 A.
+________________________________________________________________________________________
+
+12/16/16 - Added clarification that mileage to and from the airport is a reimbursable expense to Section 109.
+________________________________________________________________________________________
+
+12/16/16 - Clarifications and emphasis on the receipt requirements were added to Section 118. Lodging.
+________________________________________________________________________________________
+
+12/16/16 - Clarified policy regarding receipts for meal reimbursements in Section 123.
+
+12/16/16 - Airline baggage is now an authorized expense on the Travel Card. This was changed wherever
+necessary.
+________________________________________________________________________________________
+
+12/16/16 - General re-wording for clarification and updating language was done throughout the Manual.
+________________________________________________________________________________________
+
+07/01/17 - Language added to explain the Trip Optimizer and how to use it.
+
+_____________________________________________________________________________________
+
+07/01/17 - Section 107. Travel Routing - added A. Trip Optimizer and B. Using the Trip Optimizer System
+
+10/30/2019- Section 122. In-State Lodging- Hotel/Motel Services Contract- Removed all Hotel Motel
+
+Service Contract section.
+
+12/3/2019- Section 109. Out-of-State Vehicle Rentals- Removed Out-of-State Vehicle Rental Section.
+_____________________________________________________________________________________
+
+12/02/24 - Section 3. Language has been added to clarify the moratorium on the Trip Optimizer.
+
+_____________________________________________________________________________________

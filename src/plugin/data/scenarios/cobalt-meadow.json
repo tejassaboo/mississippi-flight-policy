@@ -1,0 +1,153 @@
+{
+  "id": "cobalt-meadow",
+  "category": "distractor",
+  "overlays": [],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I thought about driving to Charlotte for the inspection on January 26th, but it's a long way, so I'll fly. Book me the cheapest flight.",
+  "trip": {
+    "traveller_name": "Jerome Hollis",
+    "traveller_title": "Elections Equipment Examiner",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Secretary of State, Elections Division field office",
+    "duty_station": "Woodville, MS",
+    "local_airport": "BTR",
+    "origin": "BTR",
+    "destination": "CLT",
+    "travel_date": "2027-01-26",
+    "must_land_by": "2027-01-26 17:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-01-04",
+    "purpose": "Inspection of a vendor's voting equipment plant near Charlotte",
+    "purpose_kind": "SITE_INSPECTION",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "BTR",
+        "destination": "CLT",
+        "date": "2027-01-26",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "first": {
+            "carrier": "AA",
+            "depart": "06:45"
+          },
+          "atlanta": {
+            "carrier": "DL",
+            "via": [
+              "ATL"
+            ],
+            "depart": "08:10",
+            "layovers": [
+              70
+            ]
+          },
+          "afternoon": {
+            "carrier": "AA",
+            "depart": "13:00"
+          }
+        },
+        "offers": [
+          {
+            "slot": "first-economy",
+            "flight": "first",
+            "cabin": "ECONOMY",
+            "fare_cents": 25700
+          },
+          {
+            "slot": "atlanta-economy",
+            "flight": "atlanta",
+            "cabin": "ECONOMY",
+            "fare_cents": 27900
+          },
+          {
+            "slot": "afternoon-economy",
+            "flight": "afternoon",
+            "cabin": "ECONOMY",
+            "fare_cents": 43100,
+            "refundable": true
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "first-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "NONE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "PUBLIC_CARRIER",
+      "TRAVEL_REIMBURSEMENT",
+      "TRAVEL_ROUTING"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    },
+    {
+      "lines": [
+        557,
+        558
+      ],
+      "sha256": "ec934bf20d3a71abb60402b7bb7f356dd606f598020e689c6986a56059fe2d32",
+      "quote": "The least expensive and most practical method of transportation should be used.",
+      "why": "the least expensive and most practical method"
+    }
+  ],
+  "distractors": [
+    {
+      "lines": [
+        786,
+        792
+      ],
+      "quote": "shall not exceed the cost of the lowest unrestricted airfare",
+      "why": "a cap on driving expenses, not the fare to buy when flying"
+    },
+    {
+      "lines": [
+        309,
+        312
+      ],
+      "quote": "Unrestricted airfares allow for refunds and changes in travel dates without penalties.",
+      "why": "a definition, not a fare the traveller must buy"
+    }
+  ],
+  "design_notes": "The lowest logical rate (line 370). The 'lowest unrestricted airfare' of lines 786-792 caps what a driver is reimbursed; it is not the fare to buy when flying, and the refundable fare is dearer."
+}

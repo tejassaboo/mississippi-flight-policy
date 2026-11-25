@@ -1,0 +1,198 @@
+{
+  "id": "wren-basalt",
+  "category": "multi_rule",
+  "overlays": [
+    "multi_leg",
+    "dearer_option",
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Business class to Honolulu on May 3rd for the conference, please. Our executive director signed the eWaiver for business class and the State Travel Office approved it.",
+  "trip": {
+    "traveller_name": "Renee Castille",
+    "traveller_title": "Preparedness Bureau Director",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Mississippi Emergency Management Agency, south region office",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "HNL",
+    "travel_date": "2027-05-03",
+    "must_land_by": "2027-05-03 20:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-04-05",
+    "purpose": "Presenting at the Pacific emergency management conference in Honolulu",
+    "purpose_kind": "CONFERENCE",
+    "requested_cabin": "BUSINESS",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "Executive Director, MEMA",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      },
+      {
+        "role": "DFA",
+        "name": "Department of Finance and Administration",
+        "subject": "TRAVEL_AUTHORIZATION",
+        "covers": "THE_TRIP"
+      },
+      {
+        "role": "AGENCY_HEAD",
+        "name": "Executive Director, MEMA",
+        "subject": "EWAIVER_SIGNED",
+        "covers": "BUSINESS_CLASS"
+      },
+      {
+        "role": "STATE_TRAVEL_OFFICE",
+        "name": "State Travel Office (OPTFM)",
+        "subject": "EWAIVER_APPROVED",
+        "covers": "BUSINESS_CLASS"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "HNL",
+        "date": "2027-05-03",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "delta": {
+            "carrier": "DL",
+            "via": [
+              "LAX"
+            ],
+            "depart": "07:30",
+            "minutes": [
+              230,
+              335
+            ],
+            "layovers": [
+              70
+            ]
+          },
+          "american": {
+            "carrier": "AA",
+            "via": [
+              "DFW"
+            ],
+            "depart": "08:00",
+            "minutes": [
+              110,
+              470
+            ],
+            "layovers": [
+              85
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "delta-economy",
+            "flight": "delta",
+            "cabin": "ECONOMY",
+            "fare_cents": 67200
+          },
+          {
+            "slot": "delta-business",
+            "flight": "delta",
+            "cabin": "BUSINESS",
+            "fare_cents": 318000
+          },
+          {
+            "slot": "american-economy",
+            "flight": "american",
+            "cabin": "ECONOMY",
+            "fare_cents": 69800
+          },
+          {
+            "slot": "american-business",
+            "flight": "american",
+            "cabin": "BUSINESS",
+            "fare_cents": 342000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "american-business"
+    ],
+    "cabins": [
+      "BUSINESS"
+    ],
+    "reason_codes": [
+      "EWAIVER_APPROVED",
+      "INTERNATIONAL_LONG_FLIGHT",
+      "INTERNATIONAL_TRAVEL_APPROVED",
+      "LONG_FLIGHT_APPROVED"
+    ],
+    "approvers": [
+      "AGENCY_HEAD",
+      "DEPARTMENT_HEAD",
+      "DFA",
+      "NONE",
+      "STATE_TRAVEL_OFFICE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "APPROVAL_FORMS",
+      "CONFERENCES",
+      "EWAIVER_REQUEST_FORM",
+      "INTERNATIONAL_TRAVEL",
+      "PUBLIC_CARRIER"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        868,
+        872
+      ],
+      "sha256": "0aa96e750f90360bc8394a64b2e9f50c681875d41d5107cd63cbe1f9b2892645",
+      "quote": "Preferred seating, b usiness, or first-class service may be authorized if at least one of the flight segments exceeds 6 hours. A flight segment is defined as time in the air between stopovers, changing aircraft, or change of airline. Preferred seating, business or first-class travel is not reimbursable unless approved in advance. A n eWaiver signed by the Agency Head or designee must be submitted and approved by OPTFM prior to the trip.",
+      "why": "business only if a segment exceeds 6 hours, approved in advance by an eWaiver the agency head signs and OPTFM approves"
+    },
+    {
+      "lines": [
+        462,
+        466
+      ],
+      "sha256": "ceb056e8af713247a263c5452977bd7dd90f95ab157ad49e3f25367cf0ef3cb1",
+      "quote": "The form should be completely filled out and signed by the entity head or designee before submitting the form to the State Travel Office. Approval of the eWaiver Request Form will depend on the State Travel Office being able to clearly determine the anticipated cost to the State and/or any anticipated savings.",
+      "why": "the eWaiver is signed by the entity head and approved by the State Travel Office"
+    },
+    {
+      "lines": [
+        1131,
+        1133
+      ],
+      "sha256": "68840863366d6c0bd080ae9b68e2e1ccf33aa81e2487648979b0be7200fe17d4",
+      "quote": "All travel outside the continental limits of the United States (Canada, Hawaii, Puerto Rico, and Mexico are outside) must be approved by the Department of Finance and Administration (excluding Universities) prior to departure.",
+      "why": "DFA approves travel outside the continental limits"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The eWaiver is approved, but business may be authorized only 'if at least one of the flight segments exceeds 6 hours' (lines 868-869). The cheaper Delta business fare flies 230 and 335 minutes: no segment qualifies. American's Dallas-Honolulu segment is 470 minutes: book American business, the cheapest that can be authorized."
+}

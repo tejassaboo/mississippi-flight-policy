@@ -1,0 +1,122 @@
+{
+  "id": "pewter-fen",
+  "category": "refusal",
+  "overlays": [
+    "date_arithmetic"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Please buy me a regular ticket to Atlanta on January 6th for the CDC partnership meeting. I do have a free Delta coupon from the miles I earned on state trips, but I'd like to save it for a family trip.",
+  "trip": {
+    "traveller_name": "Natalie Burkes",
+    "traveller_title": "Immunization Program Manager",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Mississippi State Department of Health, Picayune district office",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "ATL",
+    "travel_date": "2027-01-06",
+    "must_land_by": "2027-01-06 14:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2026-12-16",
+    "purpose": "Quarterly coordination meeting with the CDC's state partnership office in Atlanta",
+    "purpose_kind": "MEETING",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "A Delta free one-way economy ticket coupon from SkyMiles earned on state-paid trips; good on any Delta flight New Orleans-Atlanta; expires 2027-01-10; no other state trip is planned before then",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "State Health Officer, Mississippi State Department of Health",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "ATL",
+        "date": "2027-01-06",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "charlotte": {
+            "carrier": "AA",
+            "via": [
+              "CLT"
+            ],
+            "depart": "06:15",
+            "layovers": [
+              60
+            ]
+          },
+          "delta": {
+            "carrier": "DL",
+            "depart": "07:00"
+          }
+        },
+        "offers": [
+          {
+            "slot": "charlotte-economy",
+            "flight": "charlotte",
+            "cabin": "ECONOMY",
+            "fare_cents": 22800
+          },
+          {
+            "slot": "delta-economy",
+            "flight": "delta",
+            "cabin": "ECONOMY",
+            "fare_cents": 20500
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "REFUSE",
+    "offer_slots": [],
+    "cabins": [
+      "NONE"
+    ],
+    "reason_codes": [
+      "FREE_TICKET_MUST_BE_USED"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "FREQUENT_FLYER_AWARDS",
+      "PUBLIC_CARRIER"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        884,
+        888
+      ],
+      "sha256": "9280ff024996a3ce160d70f8f48d515c346b9e4daf3fe9b50d64327c368b36aa",
+      "quote": "Any bonus or promotional gratuity received as a result of official state travel shall be used to offset or reduce the cost of subsequent official state travel. Under no circumstances can the traveler keep a bonus or other promotional gratuity so earned for his own personal use. As sufficient mileage, earned as a result of state-paid travel, is accumulated, free ticket coupons will be applied for and used to offset official state travel costs. Follow airline procedures to exchange the miles for a ticket.",
+      "why": "bonuses from state travel offset later state travel; free ticket coupons are used for it"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 884-888: a bonus earned on state travel shall offset later official travel, the traveller can under no circumstances keep it for personal use, and free ticket coupons are used to offset official travel costs. The coupon covers this flight and expires (January 10) before any other state trip, so it is used and the state buys no ticket."
+}

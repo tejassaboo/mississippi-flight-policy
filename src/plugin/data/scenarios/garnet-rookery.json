@@ -1,0 +1,154 @@
+{
+  "id": "garnet-rookery",
+  "category": "boundary_twin",
+  "overlays": [
+    "multi_leg"
+  ],
+  "twin_of": "lichen-spindle",
+  "twin_fact": "nonstop fare 24100 or 28600 cents",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'd love a nonstop to Denver on January 27th if the state will pay for it; if not, book me the cheaper flight.",
+  "trip": {
+    "traveller_name": "Tamika Rowe",
+    "traveller_title": "Hydrologist II",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Department of Environmental Quality, Office of Land and Water (Picayune)",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "DEN",
+    "travel_date": "2027-01-27",
+    "must_land_by": "2027-01-27 15:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-01-04",
+    "purpose": "Hydrology modelling training course in Denver",
+    "purpose_kind": "TRAINING",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": true,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "Executive Director, Department of Environmental Quality",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "DEN",
+        "date": "2027-01-27",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "dallas": {
+            "carrier": "AA",
+            "via": [
+              "DFW"
+            ],
+            "depart": "06:05",
+            "layovers": [
+              70
+            ]
+          },
+          "united": {
+            "carrier": "UA",
+            "depart": "08:40"
+          },
+          "southwest": {
+            "carrier": "WN",
+            "depart": "12:15"
+          }
+        },
+        "offers": [
+          {
+            "slot": "dallas-economy",
+            "flight": "dallas",
+            "cabin": "ECONOMY",
+            "fare_cents": 24100
+          },
+          {
+            "slot": "united-economy",
+            "flight": "united",
+            "cabin": "ECONOMY",
+            "fare_cents": 24100
+          },
+          {
+            "slot": "southwest-economy",
+            "flight": "southwest",
+            "cabin": "ECONOMY",
+            "fare_cents": 26800
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "united-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "FEWEST_STOPS",
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "CONFERENCES",
+      "PUBLIC_CARRIER"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        864,
+        866
+      ],
+      "sha256": "1f26dd825706336573529605cf8f34152cc1262e7a4f8521d1589eb39795cb6d",
+      "quote": "\"Direct\" does not mean nonstop. It only means that you will not be changing aircraft. Choose the flight with the fewest stops for fewer chances for delay. A \"direct\" flight with only one stop might be preferable to connecting nonstop flights, however.",
+      "why": "'direct' is not nonstop; choose the flight with the fewest stops"
+    },
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    },
+    {
+      "lines": [
+        853,
+        853
+      ],
+      "sha256": "7ad6e1f3b73ffc102d67b114ec5aa60ffe365e4f9c2754b24dbf06e3316d56ab",
+      "quote": "The least expensive routing shall be used.",
+      "why": "the least expensive routing"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The United nonstop costs the same $241 as the Dallas connection: it is the lowest fare too, so no eWaiver is needed (lines 840-843), and lines 864-866 say to choose the flight with the fewest stops: the nonstop the traveller asked for. The connection at the same fare ignores a request the handbook permits."
+}

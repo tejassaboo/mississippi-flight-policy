@@ -1,0 +1,16 @@
+{
+  "id": "mississippi-flight-policy",
+  "name": "Mississippi State Travel Policy Flight Booking",
+  "slug": "mississippi-travel-2024",
+  "title": "State of Mississippi, Department of Finance and Administration, State Travel Policy Rules & Regulations (December 2024)",
+  "frozen_file": "mississippi-travel-2024_policy.txt",
+  "sha256": "6f361eff42770234967497ef54a03c1bd3f470590d5c3d3e27842e6f0e464757",
+  "raw_pdf_sha256": "31f14c820081934d2ecb85ec81fd14b0fc847065a029174525b7b4d9e95f17bd",
+  "words": 12334,
+  "lines": 1543,
+  "source": "https://www.dfa.ms.gov/sites/default/files/Office%20of%20Purchasing%2C%20Travel%20and%20Fleet%20Home/Resources%20Manuals%20Guidelines/Travel%20Manual%202024.pdf",
+  "frozen_on": "2026-11-24",
+  "scenario_count": 32,
+  "currency": "USD",
+  "background_offers": 0
+}

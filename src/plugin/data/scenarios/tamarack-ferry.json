@@ -1,0 +1,155 @@
+{
+  "id": "tamarack-ferry",
+  "category": "hidden_clause",
+  "overlays": [
+    "multi_leg",
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Please book me New Orleans to Anchorage on February 22nd for the oil spill response drill. Cheapest economy.",
+  "trip": {
+    "traveller_name": "Brent Ladner",
+    "traveller_title": "Emergency Response Coordinator",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Department of Environmental Quality, Emergency Services (Picayune)",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "ANC",
+    "travel_date": "2027-02-22",
+    "must_land_by": "2027-02-22 23:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-01-25",
+    "purpose": "Oil spill response drill hosted by Alaska's environmental agency",
+    "purpose_kind": "TRAINING",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "Executive Director, Department of Environmental Quality",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "ANC",
+        "date": "2027-02-22",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "minneapolis": {
+            "carrier": "DL",
+            "via": [
+              "MSP"
+            ],
+            "depart": "06:40",
+            "layovers": [
+              80
+            ]
+          },
+          "seattle": {
+            "carrier": "AS",
+            "via": [
+              "SEA"
+            ],
+            "depart": "07:15",
+            "layovers": [
+              75
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "minneapolis-economy",
+            "flight": "minneapolis",
+            "cabin": "ECONOMY",
+            "fare_cents": 49800
+          },
+          {
+            "slot": "seattle-economy",
+            "flight": "seattle",
+            "cabin": "ECONOMY",
+            "fare_cents": 52400
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "minneapolis-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "DOMESTIC_TRAVEL",
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "CONFERENCES",
+      "DEFINITIONS",
+      "INTERNATIONAL_TRAVEL",
+      "PUBLIC_CARRIER",
+      "TRAVEL_REIMBURSEMENT",
+      "TRAVEL_ROUTING"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        1145,
+        1146
+      ],
+      "sha256": "75d16a7f0d732a9ac1a3f81e8942cd4e16aa6217071ccc62e1b29383620a4355",
+      "quote": "Note: Travel to Alaska is considered within the continental limits of the United States and meals would be reimbursed at the maximum state reimbursement rate allowed.",
+      "why": "Alaska is within the continental limits"
+    },
+    {
+      "lines": [
+        249,
+        249
+      ],
+      "sha256": "9701460b14f42781307035a3657f8c0f56f3d31373cf0220aca278c951b345da",
+      "quote": "C. International Travel - All travel to areas other than the 48 contiguous United States and Alaska.",
+      "why": "international travel: areas other than the 48 contiguous states and Alaska"
+    },
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Alaska is far and outside the 48 contiguous states, but the notes at lines 1145-1146 and the definition at line 249 count it within the continental limits: no DFA approval is needed. The lowest logical rate, via Minneapolis."
+}

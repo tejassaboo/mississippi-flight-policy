@@ -1,0 +1,146 @@
+{
+  "id": "bayou-thimble",
+  "category": "easy",
+  "overlays": [],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Baton Rouge to Dallas on January 12th for the factory inspection of the new hatchery aeration equipment. Cheapest economy is fine.",
+  "trip": {
+    "traveller_name": "Marcus Thibodeaux",
+    "traveller_title": "Fisheries Biologist II",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Department of Wildlife, Fisheries and Parks, Woodville hatchery",
+    "duty_station": "Woodville, MS",
+    "local_airport": "BTR",
+    "origin": "BTR",
+    "destination": "DFW",
+    "travel_date": "2027-01-12",
+    "must_land_by": "2027-01-12 14:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2026-12-28",
+    "purpose": "Factory acceptance inspection of hatchery aeration equipment in Dallas",
+    "purpose_kind": "SITE_INSPECTION",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "BTR",
+        "destination": "DFW",
+        "date": "2027-01-12",
+        "return_date": "",
+        "background": 2,
+        "flights": {
+          "first": {
+            "carrier": "AA",
+            "depart": "06:00"
+          },
+          "houston": {
+            "carrier": "UA",
+            "via": [
+              "IAH"
+            ],
+            "depart": "07:05",
+            "layovers": [
+              70
+            ]
+          },
+          "mid": {
+            "carrier": "AA",
+            "depart": "10:15"
+          },
+          "late": {
+            "carrier": "AA",
+            "depart": "15:40"
+          }
+        },
+        "offers": [
+          {
+            "slot": "first-economy",
+            "flight": "first",
+            "cabin": "ECONOMY",
+            "fare_cents": 23600
+          },
+          {
+            "slot": "houston-economy",
+            "flight": "houston",
+            "cabin": "ECONOMY",
+            "fare_cents": 26200
+          },
+          {
+            "slot": "mid-economy",
+            "flight": "mid",
+            "cabin": "ECONOMY",
+            "fare_cents": 25100
+          },
+          {
+            "slot": "late-economy",
+            "flight": "late",
+            "cabin": "ECONOMY",
+            "fare_cents": 31800,
+            "refundable": true
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "first-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "NONE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "PUBLIC_CARRIER",
+      "TRAVEL_REIMBURSEMENT",
+      "TRAVEL_ROUTING"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    },
+    {
+      "lines": [
+        557,
+        558
+      ],
+      "sha256": "ec934bf20d3a71abb60402b7bb7f356dd606f598020e689c6986a56059fe2d32",
+      "quote": "The least expensive and most practical method of transportation should be used.",
+      "why": "the least expensive and most practical method"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The lowest logical rate (line 370): the 06:00 American nonstop lands well before the inspection. The refundable fare is dearer. A factory inspection is not a convention, association or meeting, and no sign-off is on file."
+}

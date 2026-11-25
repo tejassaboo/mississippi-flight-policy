@@ -1,0 +1,153 @@
+{
+  "id": "maple-dune",
+  "category": "refusal",
+  "overlays": [
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Please book a ticket for my husband Robert to come with me to the public health conference in San Diego on April 26th; he'll share my room.",
+  "trip": {
+    "traveller_name": "Robert Ellison",
+    "traveller_title": "Husband of Dr. Karen Ellison, State Epidemiologist's office",
+    "passenger": "FAMILY_MEMBER",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "Dr. Karen Ellison",
+    "agency": "Mississippi State Department of Health, Picayune district office",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "SAN",
+    "travel_date": "2027-04-26",
+    "must_land_by": "2027-04-26 20:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-03-29",
+    "purpose": "Accompanying his wife to a public health conference in San Diego",
+    "purpose_kind": "CONFERENCE",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "State Health Officer, Mississippi State Department of Health",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "SAN",
+        "date": "2027-04-26",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "dallas": {
+            "carrier": "AA",
+            "via": [
+              "DFW"
+            ],
+            "depart": "06:50",
+            "layovers": [
+              70
+            ]
+          },
+          "alaska": {
+            "carrier": "AS",
+            "depart": "09:40"
+          }
+        },
+        "offers": [
+          {
+            "slot": "dallas-economy",
+            "flight": "dallas",
+            "cabin": "ECONOMY",
+            "fare_cents": 29900
+          },
+          {
+            "slot": "alaska-economy",
+            "flight": "alaska",
+            "cabin": "ECONOMY",
+            "fare_cents": 32800
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "REFUSE",
+    "offer_slots": [],
+    "cabins": [
+      "NONE"
+    ],
+    "reason_codes": [
+      "COMPANION_NOT_COVERED",
+      "PERSONAL_TRAVEL_NOT_COVERED"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "COMBINING_PERSONAL_TRAVEL",
+      "INTRODUCTION",
+      "LODGING_WITH_NON_EMPLOYEE",
+      "TRAVEL_CARD",
+      "TRAVEL_REIMBURSEMENT"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        202,
+        203
+      ],
+      "sha256": "f4dbe4380cd46462ce0a03b66560d8779673089f128347a546ac8f8aaeaba714",
+      "quote": "All rules and regulations contained herein apply to all state officers and employees.",
+      "why": "the rules cover state officers and employees"
+    },
+    {
+      "lines": [
+        1216,
+        1217
+      ],
+      "sha256": "7cd679cd44d1f29af854007fa641dc288176b3f6f38c1b0598c5f8361846a35c",
+      "quote": "If a member(s) of the state employee's family or other non-state employee travels with the officer or employee, the employee shall claim reimbursement at the single hotel/motel room rate only. Express check-out receipts",
+      "why": "a family member along: the employee claims the single room rate only"
+    },
+    {
+      "lines": [
+        1026,
+        1030
+      ],
+      "sha256": "692539b39905f5a59acbe5201b0d2a4c26b2c2ad896948bbe2944ac7d9563cc5",
+      "quote": "The cardless travel account allows travel-related expenses to be delegated to one person, the Program Coordinator, the designated person responsible for making official business travel arrangements for others, including non-entity employees traveling on official state business. Any travel-related services, such as travel agency fees, airfare, railway, vehicle rental, lodging, lodging deposits, travel-related conference registration, etc., which are normally directly billed can now be billed to this account.",
+      "why": "the cardless account books non-entity travellers on official state business"
+    },
+    {
+      "lines": [
+        642,
+        651
+      ],
+      "sha256": "e2734c28131f438a25b1030fbc1c226f35e4c40429f8c16d9588780182649e76",
+      "quote": "Business travel and vacation/personal leave may be combined when all of the following conditions are met: • The primary purpose of the trip is official state business. • The employee uses his approved leave for the personal part of the trip. • The state agency incurs no expenses beyond what it would have incurred had there been no personal travel involved in the trip. (If the employee would normally be expected to arrive the day before or remain in the area of official business overnight and return the following morning, and does so, expenses for either/both night(s) and the appr opriate meals will be allowed.); and,",
+      "why": "business and personal leave combined only when the primary purpose is state business, leave is approved and the agency incurs no extra expense"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The rules cover state officers and employees on official business (lines 202-203); the cardless account books non-employees only on official state business (lines 1026-1028); a family member along means the single room rate only (lines 1216-1217); and the agency incurs no expense beyond the business trip (line 648). No ticket for the husband."
+}

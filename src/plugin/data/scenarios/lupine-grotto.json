@@ -1,0 +1,174 @@
+{
+  "id": "lupine-grotto",
+  "category": "hidden_clause",
+  "overlays": [
+    "dearer_option",
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "Please book business class from New Orleans to Paris on May 10th for the ocean sciences conference. The university's travel office approved my waiver for business class under the university's own procedure.",
+  "trip": {
+    "traveller_name": "Dr. Ethan Moreau",
+    "traveller_title": "Associate Professor of Marine Science",
+    "passenger": "UNIVERSITY_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "University of Southern Mississippi, School of Ocean Science (Stennis)",
+    "duty_station": "Stennis Space Center, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "CDG",
+    "travel_date": "2027-05-10",
+    "must_land_by": "2027-05-11 18:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-04-12",
+    "purpose": "Presenting a paper at the international ocean sciences conference in Paris",
+    "purpose_kind": "CONFERENCE",
+    "requested_cabin": "BUSINESS",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "Director, School of Ocean Science",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      },
+      {
+        "role": "UNIVERSITY_TRAVEL_OFFICE",
+        "name": "University Travel Office",
+        "subject": "UNIVERSITY_WAIVER",
+        "covers": "BUSINESS_CLASS"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "CDG",
+        "date": "2027-05-10",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "atlanta": {
+            "carrier": "DL",
+            "via": [
+              "ATL"
+            ],
+            "depart": "15:30",
+            "minutes": [
+              95,
+              535
+            ],
+            "layovers": [
+              80
+            ]
+          },
+          "airfrance": {
+            "carrier": "AF",
+            "depart": "17:45",
+            "minutes": [
+              590
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "atlanta-economy",
+            "flight": "atlanta",
+            "cabin": "ECONOMY",
+            "fare_cents": 87600
+          },
+          {
+            "slot": "atlanta-business",
+            "flight": "atlanta",
+            "cabin": "BUSINESS",
+            "fare_cents": 512000
+          },
+          {
+            "slot": "airfrance-economy",
+            "flight": "airfrance",
+            "cabin": "ECONOMY",
+            "fare_cents": 91200
+          },
+          {
+            "slot": "airfrance-business",
+            "flight": "airfrance",
+            "cabin": "BUSINESS",
+            "fare_cents": 486000
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "airfrance-business"
+    ],
+    "cabins": [
+      "BUSINESS"
+    ],
+    "reason_codes": [
+      "INTERNATIONAL_LONG_FLIGHT",
+      "LONG_FLIGHT_APPROVED",
+      "UNIVERSITY_WAIVER_PROCESS"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE",
+      "UNIVERSITY_TRAVEL_OFFICE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "CONFERENCES",
+      "EWAIVER_REQUEST_FORM",
+      "INTERNATIONAL_TRAVEL",
+      "PUBLIC_CARRIER"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        471,
+        474
+      ],
+      "sha256": "a9ba8d39406dcfa5d73cb67707d1361ddd64cd4a45303f32a65b02ca6fe85474",
+      "quote": "Universities are exempt from submitting eWaivers effective August 15, 2012; however, each University shall maintain in its own travel policies and procedures regarding the waiver process at the University. Each University traveler should follow the University's policies and procedures for waivers . The University should maintain all records of deviations from state travel policy guidelines in its files for auditing purposes.",
+      "why": "universities do not submit eWaivers and follow their own waiver procedures"
+    },
+    {
+      "lines": [
+        868,
+        872
+      ],
+      "sha256": "0aa96e750f90360bc8394a64b2e9f50c681875d41d5107cd63cbe1f9b2892645",
+      "quote": "Preferred seating, b usiness, or first-class service may be authorized if at least one of the flight segments exceeds 6 hours. A flight segment is defined as time in the air between stopovers, changing aircraft, or change of airline. Preferred seating, business or first-class travel is not reimbursable unless approved in advance. A n eWaiver signed by the Agency Head or designee must be submitted and approved by OPTFM prior to the trip.",
+      "why": "business only if a segment exceeds 6 hours, approved in advance by an eWaiver the agency head signs and OPTFM approves"
+    },
+    {
+      "lines": [
+        1131,
+        1133
+      ],
+      "sha256": "68840863366d6c0bd080ae9b68e2e1ccf33aa81e2487648979b0be7200fe17d4",
+      "quote": "All travel outside the continental limits of the United States (Canada, Hawaii, Puerto Rico, and Mexico are outside) must be approved by the Department of Finance and Administration (excluding Universities) prior to departure.",
+      "why": "DFA approves travel outside the continental limits"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Both itineraries have a segment over 6 hours (590; 535), so business may be authorized (lines 868-869). The OPTFM eWaiver of lines 870-872 does not apply: universities are exempt from submitting eWaivers and follow their own waiver procedure (lines 471-474), and the university's approval is on file. Universities are also excluded from DFA's prior approval of travel outside the continental limits (line 1132). The cheapest business fare: Air France."
+}

@@ -1,0 +1,164 @@
+{
+  "id": "cypress-lantern",
+  "category": "easy",
+  "overlays": [],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I need to fly New Orleans to Atlanta on December 14th for the air-permit coordination meeting at the EPA regional office. Economy, cheapest please.",
+  "trip": {
+    "traveller_name": "Denise Faulkner",
+    "traveller_title": "Environmental Engineer III",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Department of Environmental Quality, Picayune field office",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "ATL",
+    "travel_date": "2026-12-14",
+    "must_land_by": "2026-12-14 17:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2026-11-30",
+    "purpose": "Air-permit coordination meeting at the EPA regional office in Atlanta",
+    "purpose_kind": "MEETING",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "Executive Director, Department of Environmental Quality",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "ATL",
+        "date": "2026-12-14",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "early": {
+            "carrier": "DL",
+            "depart": "06:10"
+          },
+          "morning": {
+            "carrier": "DL",
+            "depart": "09:00"
+          },
+          "afternoon": {
+            "carrier": "DL",
+            "depart": "13:30"
+          },
+          "charlotte": {
+            "carrier": "AA",
+            "via": [
+              "CLT"
+            ],
+            "depart": "07:30",
+            "layovers": [
+              65
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "early-economy",
+            "flight": "early",
+            "cabin": "ECONOMY",
+            "fare_cents": 17200,
+            "seats": false
+          },
+          {
+            "slot": "morning-economy",
+            "flight": "morning",
+            "cabin": "ECONOMY",
+            "fare_cents": 18900
+          },
+          {
+            "slot": "afternoon-economy",
+            "flight": "afternoon",
+            "cabin": "ECONOMY",
+            "fare_cents": 22600
+          },
+          {
+            "slot": "charlotte-economy",
+            "flight": "charlotte",
+            "cabin": "ECONOMY",
+            "fare_cents": 24100
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "morning-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "CONFERENCES",
+      "PUBLIC_CARRIER",
+      "TRAVEL_REIMBURSEMENT",
+      "TRAVEL_ROUTING"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    },
+    {
+      "lines": [
+        557,
+        558
+      ],
+      "sha256": "ec934bf20d3a71abb60402b7bb7f356dd606f598020e689c6986a56059fe2d32",
+      "quote": "The least expensive and most practical method of transportation should be used.",
+      "why": "the least expensive and most practical method"
+    },
+    {
+      "lines": [
+        1072,
+        1074
+      ],
+      "sha256": "32c3e86f01931b49e3d3c155350500decb1d8caf27ed951ba635de35f3291f37",
+      "quote": "Section 25-1-83 of the Mississippi Code requires prior written approval from the department head for employee attendance at any convention, association , or meeting in order for expenses to be reimbursed. Such reimbursed expenses must then be annually reported to the Legislature.",
+      "why": "the department head's prior written approval for attendance at any convention, association, or meeting"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "A short domestic trip: the lowest logical rate (line 370). The cheaper 06:10 fare is sold out. The department head's written approval of the meeting is on file (lines 1072-1073), so the approver is that role or NONE."
+}

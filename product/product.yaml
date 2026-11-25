@@ -1,0 +1,13 @@
+_ > nanoagent.plugin.v0001.ProductConfig:
+tagline: "One flight request, a state's real travel manual: book it, refuse it, or hold it for sign-off"
+summary: "An agent handles one state employee's flight request under the Mississippi Department of Finance and Administration's State Travel Policy Rules & Regulations (December 2024), read verbatim. It reads the trip record, searches a simulated flight world (real airports and airlines, synthetic schedules and fares) and submits a decision with the offer, cabin, reason, approver and manual section. A deterministic verifier rebuilds the offers and the manual's answer itself and checks every field. Thirty-two cases cover business class only over a 6-hour segment with an approved eWaiver, the local airport against a cheaper one all costs counted, a day-early fare against the added hotel night, the fewest stops at an equal fare, leave days at no extra cost, international approvals, award coupons, companions, and the manual's own unclear words."
+highlights:
+  - "The verbatim manual: no paraphrase, no rules restated in the task"
+  - "Two wordings of one limit: 'exceeds 6 hours' against 'six hours or longer non-stop', and a 360-minute segment"
+  - "Unclear clauses become holds for approval, each once, with clear twins on both sides"
+  - "Fully offline: a hash-seeded flight world with unguessable offer ids"
+steps:
+  - "Name a case, for example cypress-lantern, with the traveller's request"
+  - "The agent reads the trip record and searches flights on the trip's route and date"
+  - "It submits BOOK, REFUSE or FLAG_FOR_APPROVAL with the offer, cabin, reason, approver and section"
+  - "The verifier recomputes the manual's answer and checks every field"

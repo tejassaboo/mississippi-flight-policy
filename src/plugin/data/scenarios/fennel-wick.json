@@ -1,0 +1,197 @@
+{
+  "id": "fennel-wick",
+  "category": "boundary_twin",
+  "overlays": [
+    "date_arithmetic",
+    "month_end",
+    "dearer_option"
+  ],
+  "twin_of": "quill-harbor",
+  "twin_fact": "day-before fare 30300 or 16300 cents",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I need to be in Washington for a 1 pm grant review meeting at USDOT on March 1st. If flying up the day before saves the state money overall, I'm glad to do that; otherwise I'll fly that morning. Economy is fine.",
+  "trip": {
+    "traveller_name": "Gregory Pham",
+    "traveller_title": "Highway Safety Grants Manager",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Department of Transportation, Office of Highway Safety (Picayune)",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "DCA",
+    "travel_date": "2027-03-01",
+    "must_land_by": "2027-03-01 12:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "2027-02-28",
+    "other_date_kind": "LOWER_FARE",
+    "other_date_added_cents": 17500,
+    "leave_approved": false,
+    "booking_date": "2027-02-01",
+    "purpose": "Federal highway safety grant review meeting at USDOT headquarters, 1 pm on March 1",
+    "purpose_kind": "MEETING",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "Executive Director, Department of Transportation",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "day-of",
+        "origin": "MSY",
+        "destination": "DCA",
+        "date": "2027-03-01",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "first": {
+            "carrier": "AA",
+            "depart": "06:00",
+            "minutes": [
+              140
+            ]
+          },
+          "second": {
+            "carrier": "AA",
+            "depart": "07:45",
+            "minutes": [
+              140
+            ]
+          },
+          "houston": {
+            "carrier": "UA",
+            "via": [
+              "IAH"
+            ],
+            "depart": "08:30",
+            "minutes": [
+              80,
+              170
+            ],
+            "layovers": [
+              90
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "first-economy",
+            "flight": "first",
+            "cabin": "ECONOMY",
+            "fare_cents": 42800
+          },
+          {
+            "slot": "second-economy",
+            "flight": "second",
+            "cabin": "ECONOMY",
+            "fare_cents": 45600
+          },
+          {
+            "slot": "houston-economy",
+            "flight": "houston",
+            "cabin": "ECONOMY",
+            "fare_cents": 13900
+          }
+        ]
+      },
+      {
+        "name": "day-before",
+        "origin": "MSY",
+        "destination": "DCA",
+        "date": "2027-02-28",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "afternoon": {
+            "carrier": "AA",
+            "depart": "14:30",
+            "minutes": [
+              140
+            ]
+          },
+          "evening": {
+            "carrier": "AA",
+            "depart": "18:10",
+            "minutes": [
+              140
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "afternoon-economy",
+            "flight": "afternoon",
+            "cabin": "ECONOMY",
+            "fare_cents": 30300
+          },
+          {
+            "slot": "evening-economy",
+            "flight": "evening",
+            "cabin": "ECONOMY",
+            "fare_cents": 35500
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "first-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "ARRIVES_TOO_LATE",
+      "COST_SAVINGS",
+      "LOWEST_FARE"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "AIRLINE_PENALTY_FARES",
+      "CONFERENCES",
+      "PUBLIC_CARRIER"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        900,
+        901
+      ],
+      "sha256": "84621216147d1d17da759661423a03b14cd23dd68ab1881ed2d7854a8d810294",
+      "quote": "Where the employee is required to go a day early to qualify for a lower-priced penalty airfare, the State will pay the additional lodging and meal expenses not to exceed the amount of savings in the airfare.",
+      "why": "going a day early for a lower penalty fare: added lodging and meals paid up to the airfare saving"
+    },
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "The day-before fare saves $125 against the lowest logical March 1 fare ($428; the $139 connection lands after the deadline), less than the $175 of added lodging and meals: the State would pay the extra only up to the saving (lines 900-901), so flying early does not save it money. Fly the morning of March 1."
+}

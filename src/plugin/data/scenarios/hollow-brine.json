@@ -1,0 +1,132 @@
+{
+  "id": "hollow-brine",
+  "category": "refusal",
+  "overlays": [
+    "personal_travel",
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'm taking two weeks of annual leave for a family vacation in Honolulu over spring break. While I'm there I'll drop by the Hawaii emergency management office to say hello, so can the state buy my ticket?",
+  "trip": {
+    "traveller_name": "Corey Saucier",
+    "traveller_title": "Planning Section Chief",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Mississippi Emergency Management Agency, south region office",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "HNL",
+    "travel_date": "2027-03-20",
+    "must_land_by": "2027-03-20 23:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": true,
+    "booking_date": "2027-02-22",
+    "purpose": "Family vacation in Honolulu over spring break, with an optional courtesy visit to the Hawaii emergency management office that nobody at the agency asked for",
+    "purpose_kind": "VACATION",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "HNL",
+        "date": "2027-03-20",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "american": {
+            "carrier": "AA",
+            "via": [
+              "LAX"
+            ],
+            "depart": "07:00",
+            "layovers": [
+              80
+            ]
+          },
+          "delta": {
+            "carrier": "DL",
+            "via": [
+              "LAX"
+            ],
+            "depart": "08:30",
+            "layovers": [
+              70
+            ]
+          }
+        },
+        "offers": [
+          {
+            "slot": "american-economy",
+            "flight": "american",
+            "cabin": "ECONOMY",
+            "fare_cents": 61500
+          },
+          {
+            "slot": "delta-economy",
+            "flight": "delta",
+            "cabin": "ECONOMY",
+            "fare_cents": 63800
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "REFUSE",
+    "offer_slots": [],
+    "cabins": [
+      "NONE"
+    ],
+    "reason_codes": [
+      "OUTSIDE_POLICY_SCOPE",
+      "PERSONAL_TRAVEL_NOT_COVERED"
+    ],
+    "approvers": [
+      "NONE"
+    ],
+    "clauses": [
+      "COMBINING_PERSONAL_TRAVEL",
+      "INTRODUCTION",
+      "TRAVEL_REIMBURSEMENT"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        642,
+        651
+      ],
+      "sha256": "e2734c28131f438a25b1030fbc1c226f35e4c40429f8c16d9588780182649e76",
+      "quote": "Business travel and vacation/personal leave may be combined when all of the following conditions are met: • The primary purpose of the trip is official state business. • The employee uses his approved leave for the personal part of the trip. • The state agency incurs no expenses beyond what it would have incurred had there been no personal travel involved in the trip. (If the employee would normally be expected to arrive the day before or remain in the area of official business overnight and return the following morning, and does so, expenses for either/both night(s) and the appr opriate meals will be allowed.); and,",
+      "why": "business and personal leave combined only when the primary purpose is state business, leave is approved and the agency incurs no extra expense"
+    },
+    {
+      "lines": [
+        202,
+        203
+      ],
+      "sha256": "f4dbe4380cd46462ce0a03b66560d8779673089f128347a546ac8f8aaeaba714",
+      "quote": "All rules and regulations contained herein apply to all state officers and employees.",
+      "why": "the rules cover state officers and employees"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 642-644: business and personal leave may be combined only when the primary purpose of the trip is official state business. The trip is a family vacation; the courtesy call is optional and unrequested. The state buys no ticket (and DFA's approval for Hawaii never comes into it)."
+}

@@ -1,0 +1,164 @@
+{
+  "id": "bramble-fjord",
+  "category": "multi_rule",
+  "overlays": [
+    "personal_travel",
+    "date_arithmetic",
+    "outside_air_section"
+  ],
+  "twin_of": "aster-crane",
+  "twin_fact": "March 12 fare 28900 or 23600 cents",
+  "flag_twins": [],
+  "ambiguity_note": "none",
+  "request": "I'd like to fly down to Orlando two days early, on March 12th, and take two days of annual leave before the conference; I'll pay my own hotel for those nights. If the state can't do that at no extra cost, just book me on the 14th.",
+  "trip": {
+    "traveller_name": "Hannah Greer",
+    "traveller_title": "Library Services Consultant",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Mississippi Library Commission, Picayune regional office",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "MCO",
+    "travel_date": "2027-03-14",
+    "must_land_by": "2027-03-14 22:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "2027-03-12",
+    "other_date_kind": "LEAVE_FIRST",
+    "other_date_added_cents": 0,
+    "leave_approved": true,
+    "booking_date": "2027-02-15",
+    "purpose": "State library association conference in Orlando, opening session at 8:00 on March 15",
+    "purpose_kind": "CONFERENCE",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [
+      {
+        "role": "DEPARTMENT_HEAD",
+        "name": "Executive Director, Mississippi Library Commission",
+        "subject": "ATTENDANCE",
+        "covers": "THE_TRIP"
+      }
+    ],
+    "awaiting": ""
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "business-day",
+        "origin": "MSY",
+        "destination": "MCO",
+        "date": "2027-03-14",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "southwest": {
+            "carrier": "WN",
+            "depart": "09:10"
+          },
+          "jetblue": {
+            "carrier": "B6",
+            "depart": "13:45"
+          }
+        },
+        "offers": [
+          {
+            "slot": "business-day-southwest",
+            "flight": "southwest",
+            "cabin": "ECONOMY",
+            "fare_cents": 23600
+          },
+          {
+            "slot": "business-day-jetblue",
+            "flight": "jetblue",
+            "cabin": "ECONOMY",
+            "fare_cents": 25100
+          }
+        ]
+      },
+      {
+        "name": "leave-day",
+        "origin": "MSY",
+        "destination": "MCO",
+        "date": "2027-03-12",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "southwest": {
+            "carrier": "WN",
+            "depart": "08:30"
+          },
+          "jetblue": {
+            "carrier": "B6",
+            "depart": "15:20"
+          }
+        },
+        "offers": [
+          {
+            "slot": "leave-day-southwest",
+            "flight": "southwest",
+            "cabin": "ECONOMY",
+            "fare_cents": 28900
+          },
+          {
+            "slot": "leave-day-jetblue",
+            "flight": "jetblue",
+            "cabin": "ECONOMY",
+            "fare_cents": 31400
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "BOOK",
+    "offer_slots": [
+      "business-day-southwest"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "COST_SAVINGS",
+      "PERSONAL_TRAVEL_NOT_COVERED"
+    ],
+    "approvers": [
+      "DEPARTMENT_HEAD",
+      "NONE"
+    ],
+    "clauses": [
+      "AIRLINE_GENERAL",
+      "COMBINING_PERSONAL_TRAVEL",
+      "CONFERENCES",
+      "PUBLIC_CARRIER"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        642,
+        651
+      ],
+      "sha256": "e2734c28131f438a25b1030fbc1c226f35e4c40429f8c16d9588780182649e76",
+      "quote": "Business travel and vacation/personal leave may be combined when all of the following conditions are met: • The primary purpose of the trip is official state business. • The employee uses his approved leave for the personal part of the trip. • The state agency incurs no expenses beyond what it would have incurred had there been no personal travel involved in the trip. (If the employee would normally be expected to arrive the day before or remain in the area of official business overnight and return the following morning, and does so, expenses for either/both night(s) and the appr opriate meals will be allowed.); and,",
+      "why": "business and personal leave combined only when the primary purpose is state business, leave is approved and the agency incurs no extra expense"
+    },
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 642-651: leave may be combined when the agency incurs no expenses beyond the business trip's. The March 12 fare ($289) is above the March 14 lowest ($236), so the earlier day would cost the State more: book March 14, as the traveller asked otherwise. LOWEST_FARE is not accepted: the ground for declining is the no-extra-expense condition."
+}

@@ -1,0 +1,139 @@
+{
+  "id": "velvet-bight",
+  "category": "flag",
+  "overlays": [
+    "approval_required",
+    "outside_air_section"
+  ],
+  "twin_of": "",
+  "twin_fact": "",
+  "flag_twins": [
+    "marigold-oar",
+    "hollow-brine"
+  ],
+  "ambiguity_note": "none: the department head's written approval is required and missing; the text is clear",
+  "request": "Please book me to Boston on May 17th for the national state auditors' conference. My director hasn't signed my attendance approval yet, but I want to lock in the fare.",
+  "trip": {
+    "traveller_name": "Leon Whitaker",
+    "traveller_title": "Senior Performance Auditor",
+    "passenger": "STATE_EMPLOYEE",
+    "board_allowance_instead_of_salary": false,
+    "accompanies": "",
+    "agency": "Office of the State Auditor, south district (Picayune)",
+    "duty_station": "Picayune, MS",
+    "local_airport": "MSY",
+    "origin": "MSY",
+    "destination": "BOS",
+    "travel_date": "2027-05-17",
+    "must_land_by": "2027-05-17 20:00",
+    "other_origin": "",
+    "other_origin_added_cents": 0,
+    "other_date": "",
+    "other_date_kind": "NONE",
+    "other_date_added_cents": 0,
+    "leave_approved": false,
+    "booking_date": "2027-04-19",
+    "purpose": "National conference of state auditors in Boston",
+    "purpose_kind": "CONFERENCE",
+    "requested_cabin": "ECONOMY",
+    "wants_nonstop": false,
+    "free_ticket_coupon": "",
+    "travel_advance_cents": 0,
+    "sign_offs": [],
+    "awaiting": "Written approval to attend the conference, asked of the department head and not yet signed."
+  },
+  "world": {
+    "searches": [
+      {
+        "name": "main",
+        "origin": "MSY",
+        "destination": "BOS",
+        "date": "2027-05-17",
+        "return_date": "",
+        "background": 0,
+        "flights": {
+          "philadelphia": {
+            "carrier": "AA",
+            "via": [
+              "PHL"
+            ],
+            "depart": "06:10",
+            "layovers": [
+              70
+            ]
+          },
+          "jetblue": {
+            "carrier": "B6",
+            "depart": "07:30"
+          },
+          "delta": {
+            "carrier": "DL",
+            "depart": "11:00"
+          }
+        },
+        "offers": [
+          {
+            "slot": "philadelphia-economy",
+            "flight": "philadelphia",
+            "cabin": "ECONOMY",
+            "fare_cents": 31900
+          },
+          {
+            "slot": "jetblue-economy",
+            "flight": "jetblue",
+            "cabin": "ECONOMY",
+            "fare_cents": 33800
+          },
+          {
+            "slot": "delta-economy",
+            "flight": "delta",
+            "cabin": "ECONOMY",
+            "fare_cents": 35200
+          }
+        ]
+      }
+    ]
+  },
+  "expected": {
+    "decision": "FLAG_FOR_APPROVAL",
+    "offer_slots": [
+      "philadelphia-economy"
+    ],
+    "cabins": [
+      "ECONOMY"
+    ],
+    "reason_codes": [
+      "APPROVAL_REQUIRED"
+    ],
+    "approvers": [
+      "AGENCY_HEAD",
+      "DEPARTMENT_HEAD"
+    ],
+    "clauses": [
+      "CONFERENCES"
+    ],
+    "unclear_phrase": ""
+  },
+  "must_keep": [
+    {
+      "lines": [
+        1072,
+        1074
+      ],
+      "sha256": "32c3e86f01931b49e3d3c155350500decb1d8caf27ed951ba635de35f3291f37",
+      "quote": "Section 25-1-83 of the Mississippi Code requires prior written approval from the department head for employee attendance at any convention, association , or meeting in order for expenses to be reimbursed. Such reimbursed expenses must then be annually reported to the Legislature.",
+      "why": "the department head's prior written approval for attendance at any convention, association, or meeting"
+    },
+    {
+      "lines": [
+        369,
+        370
+      ],
+      "sha256": "c0da8327eeecbdb406eb97f6a08219d96d40bb4d4b4be153c2e013c48af11196",
+      "quote": "Travelers shall request air, train, bus, hotel, and vehicle rental reservations as far in advance as possible and shall utilize the lowest logical rate available.",
+      "why": "the default: the lowest logical rate available"
+    }
+  ],
+  "distractors": [],
+  "design_notes": "Lines 1072-1073: expenses of attending any convention are reimbursed only with the department head's prior written approval, which is asked for and not yet given. Hold the lowest logical fare (line 370), the Philadelphia connection, for the department head."
+}

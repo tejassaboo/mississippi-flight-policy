@@ -362,7 +362,8 @@ def dca_searches(before_cents):
 scenario(
     "quill-harbor", "boundary_twin", ["date_arithmetic", "month_end"], DCA_REQUEST, dca_trip(), dca_searches(16300),
     expected("BOOK", ["afternoon-economy"], ["ECONOMY"], ["COST_SAVINGS", "EARLIER_DAY_SAVES", "LOWEST_FARE"],
-             ["DEPARTMENT_HEAD", "NONE"], ["AIRLINE_GENERAL", "AIRLINE_PENALTY_FARES", "CONFERENCES", "PUBLIC_CARRIER"]),
+             ["DEPARTMENT_HEAD", "NONE"], ["AIRLINE_GENERAL", "AIRLINE_PENALTY_FARES", "CONFERENCES", "PUBLIC_CARRIER",
+                                         "TRAVEL_REIMBURSEMENT"]),
     [DAY_EARLY, OTHER_ROUTING, LOWEST],
     "The lowest logical fare on March 1 is $428 (the $139 Houston connection lands at 15:10, after the noon deadline). "
     "February 28 (the day before March 1; 2027 is no leap year) costs $163: a $265 saving, more than the $175 of added "
@@ -373,7 +374,8 @@ scenario(
     "fennel-wick", "boundary_twin", ["date_arithmetic", "month_end", "dearer_option"], DCA_REQUEST, dca_trip(),
     dca_searches(30300),
     expected("BOOK", ["first-economy"], ["ECONOMY"], ["ARRIVES_TOO_LATE", "COST_SAVINGS", "LOWEST_FARE"],
-             ["DEPARTMENT_HEAD", "NONE"], ["AIRLINE_GENERAL", "AIRLINE_PENALTY_FARES", "CONFERENCES", "PUBLIC_CARRIER"]),
+             ["DEPARTMENT_HEAD", "NONE"], ["AIRLINE_GENERAL", "AIRLINE_PENALTY_FARES", "CONFERENCES", "PUBLIC_CARRIER",
+                                         "TRAVEL_REIMBURSEMENT"]),
     [DAY_EARLY, LOWEST],
     "The day-before fare saves $125 against the lowest logical March 1 fare ($428; the $139 connection lands after the "
     "deadline), less than the $175 of added lodging and meals: the State would pay the extra only up to the saving "
@@ -415,17 +417,22 @@ def ord_searches(united, american):
 
 scenario(
     "marten-sill", "boundary_twin", [], ORD_REQUEST, ord_trip(), ord_searches(18600, 21400),
-    expected("BOOK", ["msy-united-economy"], ["ECONOMY"], ["COST_SAVINGS", "LOWEST_FARE", "OTHER_AIRPORT_MORE_ECONOMICAL"],
-             ["NONE"], AIR),
+    expected("BOOK", ["msy-united-economy", "btr-united-economy"], ["ECONOMY"],
+             ["COST_SAVINGS", "LOCAL_AIRPORT_REQUIRED", "LOWEST_FARE", "OTHER_AIRPORT_MORE_ECONOMICAL"], ["NONE"],
+             LOW_CLAUSES),
     [LOCAL, ECONOMICAL, LOWEST],
     "Woodville's local airport is Baton Rouge ($348). New Orleans costs $186 plus the coordinator's $95 of added "
     "mileage, parking and staff time: $281, less than $348. Lines 849-851 choose the airport on the costs most "
-    "economical to the State, all costs considered, so the local-airport assumption (lines 845-846) gives way.",
+    "economical to the State, all costs considered, so the local-airport assumption (lines 845-846) gives way. Audit: "
+    "a reader who takes 'travelers are to utilize their local airport' (line 845) as binding, with lines 849-851 only "
+    "its rationale, books Baton Rouge at its lowest fare; that reading is defensible too, so both offers are accepted.",
     twin_of="osprey-reed", twin_fact="New Orleans fare 18600 or 28900 cents")
 
 scenario(
     "osprey-reed", "boundary_twin", ["dearer_option"], ORD_REQUEST, ord_trip(), ord_searches(28900, 30500),
-    expected("BOOK", ["btr-united-economy"], ["ECONOMY"], ["COST_SAVINGS", "LOCAL_AIRPORT_REQUIRED"], ["NONE"], AIR),
+    expected("BOOK", ["btr-united-economy"], ["ECONOMY"],
+             ["ALTERNATE_ROUTE_TOO_EXPENSIVE", "COST_SAVINGS", "LOCAL_AIRPORT_REQUIRED"], ["NONE"],
+             [*AIR, "TRAVEL_ROUTING"]),
     [LOCAL, ECONOMICAL, LOWEST],
     "New Orleans costs $289 plus $95 of added mileage, parking and staff time: $384, more than Baton Rouge's $348. "
     "The local airport (lines 845-846), at its lowest logical fare. LOWEST_FARE is not accepted: the New Orleans fare "
@@ -458,7 +465,7 @@ def den_search(united, southwest):
 scenario(
     "garnet-rookery", "boundary_twin", ["multi_leg"], DEN_REQUEST, den_trip(), den_search(24100, 26800),
     expected("BOOK", ["united-economy"], ["ECONOMY"], ["FEWEST_STOPS", "LOWEST_FARE"], ["DEPARTMENT_HEAD", "NONE"],
-             [*AIR, "CONFERENCES"]),
+             [*LOW_CLAUSES, "CONFERENCES"]),
     [STOPS, LOWEST, LEAST_ROUTING],
     "The United nonstop costs the same $241 as the Dallas connection: it is the lowest fare too, so no eWaiver is needed "
     "(lines 840-843), and lines 864-866 say to choose the flight with the fewest stops: the nonstop the traveller asked "
@@ -468,7 +475,7 @@ scenario(
 scenario(
     "lichen-spindle", "boundary_twin", ["multi_leg"], DEN_REQUEST, den_trip(), den_search(28600, 29900),
     expected("BOOK", ["dallas-economy"], ["ECONOMY"], DECLINED_NONSTOP, ["DEPARTMENT_HEAD", "NONE"],
-             [*AIR, "CONFERENCES", "EWAIVER_REQUEST_FORM", "TRAVEL_ROUTING"]),
+             [*LOW_CLAUSES, "CONFERENCES", "EWAIVER_REQUEST_FORM"]),
     [LEAST_ROUTING, ABOVE_LOWEST, OTHER_ROUTING, STOPS],
     "The cheapest nonstop is $286, $45 above the $241 Dallas connection. The least expensive routing shall be used "
     "(line 853), and a fare above the lowest needs an eWaiver before booking (lines 840-843), which is not on file: "
@@ -646,7 +653,7 @@ scenario(
          offer("leave-day-jetblue", "jetblue", "ECONOMY", 26200),
      ], name="leave-day")],
     expected("BOOK", ["leave-day-southwest"], ["ECONOMY"], ["LEAVE_DAYS_NO_EXTRA_COST", "LOWEST_FARE"],
-             ["DEPARTMENT_HEAD", "NONE"], [*AIR, "COMBINING_PERSONAL_TRAVEL", "CONFERENCES"]),
+             ["DEPARTMENT_HEAD", "NONE"], [*AIR, "COMBINING_PERSONAL_TRAVEL", "CONFERENCES", "TRAVEL_REIMBURSEMENT"]),
     [COMBINE, LOWEST],
     "Lines 642-651: the primary purpose is the conference, the leave is approved, the traveller pays the leave nights, "
     "and the March 12 fare ($236) is no more than the March 14 lowest ($236): the agency incurs no extra expense, so "
@@ -835,7 +842,7 @@ scenario(
     ])],
     expected("BOOK", ["dallas-economy"], ["ECONOMY"], DECLINED_NONSTOP,
              ["DEPARTMENT_HEAD", "NONE", "STATE_TRAVEL_OFFICE"],
-             [*AIR, "CONFERENCES", "EWAIVER_REQUEST_FORM", "TRAVEL_ROUTING"]),
+             [*LOW_CLAUSES, "CONFERENCES", "EWAIVER_REQUEST_FORM"]),
     [LEAST_ROUTING, ABOVE_LOWEST],
     "The eWaiver on file is for staying outside the conference hotel (lines 1099-1103); a fare above the lowest needs "
     "its own eWaiver (lines 840-843) and the least expensive routing shall be used (line 853): the Dallas connection.",
@@ -883,7 +890,7 @@ scenario(
         offer("dallas-economy", "dallas", "ECONOMY", 29900),
         offer("alaska-economy", "alaska", "ECONOMY", 32800),
     ])],
-    expected("REFUSE", [], ["NONE"], ["COMPANION_NOT_COVERED", "PERSONAL_TRAVEL_NOT_COVERED"],
+    expected("REFUSE", [], ["NONE"], ["COMPANION_NOT_COVERED", "OUTSIDE_POLICY_SCOPE", "PERSONAL_TRAVEL_NOT_COVERED"],
              ["DEPARTMENT_HEAD", "NONE"],
              ["COMBINING_PERSONAL_TRAVEL", "INTRODUCTION", "LODGING_WITH_NON_EMPLOYEE", "TRAVEL_CARD",
               "TRAVEL_REIMBURSEMENT"]),
@@ -973,12 +980,12 @@ scenario(
 
 scenario(
     "velvet-bight", "flag", ["approval_required", "outside_air_section"],
-    "Please book me to Boston on May 17th for the national state auditors' conference. My director hasn't signed my "
-    "attendance approval yet, but I want to lock in the fare.",
-    trip(traveller_name="Leon Whitaker", traveller_title="Senior Performance Auditor",
-         agency="Office of the State Auditor, south district (Picayune)", destination="BOS", travel_date="2027-05-17",
+    "Please book me to Boston on May 17th for the national government auditors' conference. My attendance approval "
+    "hasn't been signed yet, but I want to lock in the fare.",
+    trip(traveller_name="Leon Whitaker", traveller_title="Senior Internal Auditor",
+         agency="Department of Revenue, internal audit division (Picayune)", destination="BOS", travel_date="2027-05-17",
          must_land_by="2027-05-17 20:00", booking_date="2027-04-19",
-         purpose="National conference of state auditors in Boston", purpose_kind="CONFERENCE",
+         purpose="National conference of government internal auditors in Boston", purpose_kind="CONFERENCE",
          awaiting="Written approval to attend the conference, asked of the department head and not yet signed."),
     [search("MSY", "BOS", "2027-05-17", {
         "philadelphia": {"carrier": "AA", "via": ["PHL"], "depart": "06:10", "layovers": [70]},

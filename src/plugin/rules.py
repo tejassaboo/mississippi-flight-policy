@@ -288,7 +288,8 @@ def solve(trip, offers, hidden):
 def family(trip):
     if not trip.accompanies:
         raise ValueError("a family member with nobody accompanied is not modelled")
-    return answer(Decision.REFUSE, [], [ReasonCode.COMPANION_NOT_COVERED, ReasonCode.PERSONAL_TRAVEL_NOT_COVERED],
+    return answer(Decision.REFUSE, [], [ReasonCode.COMPANION_NOT_COVERED, ReasonCode.PERSONAL_TRAVEL_NOT_COVERED,
+                                        ReasonCode.OUTSIDE_POLICY_SCOPE],
                   [Approver.NONE, *(record.role for record in trip.sign_offs)],
                   [Clause.INTRODUCTION, Clause.TRAVEL_REIMBURSEMENT, Clause.COMBINING_PERSONAL_TRAVEL,
                    Clause.LODGING_WITH_NON_EMPLOYEE, Clause.TRAVEL_CARD],
@@ -422,7 +423,7 @@ def nonstop(trip, main, reasons, clauses, notes):
         raise ValueError("a nonstop wish with no nonstop is not modelled")
     if direct[0].fare_cents == lowest[0].fare_cents:
         return answer(Decision.BOOK, direct, [ReasonCode.FEWEST_STOPS, ReasonCode.LOWEST_FARE, *reasons], on_file(trip),
-                      [*AIR_CLAUSES, *clauses],
+                      [*LOWEST_CLAUSES, *clauses],
                       "Lines 864-866: choose the flight with the fewest stops; the nonstop costs the same as the "
                       "cheapest connection, so it is the lowest logical rate too (line 370) and needs no eWaiver.")
     approved = signed(trip, SignOffSubject.EWAIVER_APPROVED, Covers.NONSTOP_FARE, Approver.STATE_TRAVEL_OFFICE)
@@ -443,7 +444,7 @@ def nonstop(trip, main, reasons, clauses, notes):
     return answer(Decision.BOOK, lowest, [ReasonCode.LOWEST_FARE, ReasonCode.WAIVER_NOT_ON_FILE,
                                           ReasonCode.ALTERNATE_ROUTE_TOO_EXPENSIVE, ReasonCode.COST_SAVINGS,
                                           *low_reasons, *reasons], on_file(trip),
-                  [*AIR_CLAUSES, Clause.TRAVEL_ROUTING, Clause.EWAIVER_REQUEST_FORM, *clauses],
+                  [*LOWEST_CLAUSES, Clause.EWAIVER_REQUEST_FORM, *clauses],
                   "; ".join([*why, *low_notes, *notes]) + ".")
 
 
@@ -463,15 +464,21 @@ def other_airport(trip, offers, reasons, clauses, notes):
     if total == home[0].fare_cents:
         raise ValueError("equal total costs are not modelled")
     if total < home[0].fare_cents:
-        return answer(Decision.BOOK, there, [ReasonCode.OTHER_AIRPORT_MORE_ECONOMICAL, ReasonCode.COST_SAVINGS,
-                                             ReasonCode.LOWEST_FARE, *reasons], on_file(trip), [*AIR_CLAUSES, *clauses],
+        # Two defensible readings (audit): lines 849-851 make the local-airport assumption rebuttable by the total
+        # cost, so the other airport; or lines 845-846 bind ("travelers are to utilize their local airport") and
+        # 849-851 only explain why, so the local airport. Both are BOOKs; accept the offer of each.
+        return answer(Decision.BOOK, [*there, *home], [ReasonCode.OTHER_AIRPORT_MORE_ECONOMICAL, ReasonCode.COST_SAVINGS,
+                                                       ReasonCode.LOWEST_FARE, ReasonCode.LOCAL_AIRPORT_REQUIRED,
+                                                       *reasons], on_file(trip), [*LOWEST_CLAUSES, *clauses],
                       "Lines 849-851: the airport is chosen on the travel costs most economical to the State, all costs "
                       "considered: the other airport's fare plus the added mileage, parking and staff time is below the "
-                      "local airport's lowest fare, so the local-airport assumption (lines 845-846) gives way.")
+                      "local airport's lowest fare, so the local-airport assumption (lines 845-846) gives way. A reader "
+                      "who takes lines 845-846 as binding books the local airport's lowest fare; both are accepted.")
     # The ground for declining the other airport is the local-airport rule and its total-cost test; the local fare
     # is not the lowest fare listed, so LOWEST_FARE is not accepted.
-    return answer(Decision.BOOK, home, [ReasonCode.LOCAL_AIRPORT_REQUIRED, ReasonCode.COST_SAVINGS, *reasons],
-                  on_file(trip), [*AIR_CLAUSES, *clauses],
+    return answer(Decision.BOOK, home, [ReasonCode.LOCAL_AIRPORT_REQUIRED, ReasonCode.COST_SAVINGS,
+                                        ReasonCode.ALTERNATE_ROUTE_TOO_EXPENSIVE, *reasons],
+                  on_file(trip), [*AIR_CLAUSES, Clause.TRAVEL_ROUTING, *clauses],
                   "Lines 845-846: travellers use their local airport; lines 849-851: the other airport's fare plus the "
                   "added mileage, parking and staff time costs the State more than the local airport's lowest fare.")
 
@@ -497,7 +504,7 @@ def lower_fare_day(trip, day, early, reasons, clauses, notes):
     home, _, low_notes = lowest_economy(trip, day)
     before, _, _ = lowest_economy(trip, early)
     saving = home[0].fare_cents - before[0].fare_cents
-    clauses = [Clause.AIRLINE_PENALTY_FARES, *AIR_CLAUSES, *clauses]
+    clauses = [Clause.AIRLINE_PENALTY_FARES, Clause.TRAVEL_REIMBURSEMENT, *AIR_CLAUSES, *clauses]
     if saving == trip.other_date_added_cents:
         raise ValueError("a saving equal to the added lodging and meals is not modelled")
     if saving > trip.other_date_added_cents:
@@ -523,7 +530,7 @@ def leave_first(trip, day, early, reasons, clauses, notes):
     clauses = [Clause.COMBINING_PERSONAL_TRAVEL, *clauses]
     if before[0].fare_cents <= home[0].fare_cents:
         return answer(Decision.BOOK, before, [ReasonCode.LEAVE_DAYS_NO_EXTRA_COST, ReasonCode.LOWEST_FARE, *reasons],
-                      on_file(trip), [*clauses, *AIR_CLAUSES],
+                      on_file(trip), [*clauses, *AIR_CLAUSES, Clause.TRAVEL_REIMBURSEMENT],
                       "Lines 642-651: the trip's primary purpose is state business, the leave is approved, and the "
                       "earlier fare costs no more than the business day's lowest fare, so the agency incurs no extra "
                       "expense: book the earlier day the traveller asked for.")

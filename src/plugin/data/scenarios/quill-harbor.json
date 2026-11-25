@@ -167,7 +167,8 @@
       "AIRLINE_GENERAL",
       "AIRLINE_PENALTY_FARES",
       "CONFERENCES",
-      "PUBLIC_CARRIER"
+      "PUBLIC_CARRIER",
+      "TRAVEL_REIMBURSEMENT"
     ],
     "unclear_phrase": ""
   },

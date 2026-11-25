@@ -135,7 +135,8 @@
       "AIRLINE_GENERAL",
       "COMBINING_PERSONAL_TRAVEL",
       "CONFERENCES",
-      "PUBLIC_CARRIER"
+      "PUBLIC_CARRIER",
+      "TRAVEL_REIMBURSEMENT"
     ],
     "unclear_phrase": ""
   },

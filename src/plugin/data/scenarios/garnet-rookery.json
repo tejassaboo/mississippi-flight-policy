@@ -116,7 +116,9 @@
     "clauses": [
       "AIRLINE_GENERAL",
       "CONFERENCES",
-      "PUBLIC_CARRIER"
+      "PUBLIC_CARRIER",
+      "TRAVEL_REIMBURSEMENT",
+      "TRAVEL_ROUTING"
     ],
     "unclear_phrase": ""
   },

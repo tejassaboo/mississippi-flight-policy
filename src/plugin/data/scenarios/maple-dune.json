@@ -95,6 +95,7 @@
     ],
     "reason_codes": [
       "COMPANION_NOT_COVERED",
+      "OUTSIDE_POLICY_SCOPE",
       "PERSONAL_TRAVEL_NOT_COVERED"
     ],
     "approvers": [

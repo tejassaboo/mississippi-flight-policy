@@ -46,6 +46,9 @@ MSY) and Woodville, Centreville and Gloster (Baton Rouge, BTR). `tests/BUILD_NOT
   manual's ground: `osprey-reed` (other airport dearer all told) and `bramble-fjord` (leave days cost more) do not
   accept `LOWEST_FARE`; `lichen-spindle` and `slate-heron` (nonstop declined) accept it beside
   `WAIVER_NOT_ON_FILE`, since the ground is the lowest-fare rule itself (lines 840-843, 853).
+- **Local airport.** `marten-sill` accepts both airports: New Orleans on the total-cost criterion (lines 849-851),
+  or Baton Rouge for a reader who takes "travelers are to utilize their local airport" (line 845) as binding.
+  `osprey-reed` is Baton Rouge on both readings.
 - **No hidden facts:** no scenario has `answer_key_inputs`.
 
 | Scenario | Category | Expected decision (offer; cabin) | Frozen lines |
@@ -60,7 +63,7 @@ MSY) and Woodville, Centreville and Gloster (Baton Rouge, BTR). `tests/BUILD_NOT
 | `fennel-wick` | boundary_twin | BOOK (first-economy; ECONOMY) | 369-370, 900-901 |
 | `garnet-rookery` | boundary_twin | BOOK (united-economy; ECONOMY) | 369-370, 853, 864-866 |
 | `lichen-spindle` | boundary_twin | BOOK (dallas-economy; ECONOMY) | 840-843, 853, 857-862, 864-866 |
-| `marten-sill` | boundary_twin | BOOK (msy-united-economy; ECONOMY) | 369-370, 845-847, 849-851 |
+| `marten-sill` | boundary_twin | BOOK (msy-united-economy or btr-united-economy; ECONOMY) | 369-370, 845-847, 849-851 |
 | `osprey-reed` | boundary_twin | BOOK (btr-united-economy; ECONOMY) | 369-370, 845-847, 849-851 |
 | `quill-harbor` | boundary_twin | BOOK (afternoon-economy; ECONOMY) | 369-370, 857-862, 900-901 |
 | `thistle-marsh` | boundary_twin | BOOK (dallas-economy; ECONOMY) | 368-369, 369-370 |

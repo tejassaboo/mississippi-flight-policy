@@ -113,13 +113,15 @@
   "expected": {
     "decision": "BOOK",
     "offer_slots": [
-      "msy-united-economy"
+      "msy-united-economy",
+      "btr-united-economy"
     ],
     "cabins": [
       "ECONOMY"
     ],
     "reason_codes": [
       "COST_SAVINGS",
+      "LOCAL_AIRPORT_REQUIRED",
       "LOWEST_FARE",
       "OTHER_AIRPORT_MORE_ECONOMICAL"
     ],
@@ -128,7 +130,9 @@
     ],
     "clauses": [
       "AIRLINE_GENERAL",
-      "PUBLIC_CARRIER"
+      "PUBLIC_CARRIER",
+      "TRAVEL_REIMBURSEMENT",
+      "TRAVEL_ROUTING"
     ],
     "unclear_phrase": ""
   },
@@ -162,5 +166,5 @@
     }
   ],
   "distractors": [],
-  "design_notes": "Woodville's local airport is Baton Rouge ($348). New Orleans costs $186 plus the coordinator's $95 of added mileage, parking and staff time: $281, less than $348. Lines 849-851 choose the airport on the costs most economical to the State, all costs considered, so the local-airport assumption (lines 845-846) gives way."
+  "design_notes": "Woodville's local airport is Baton Rouge ($348). New Orleans costs $186 plus the coordinator's $95 of added mileage, parking and staff time: $281, less than $348. Lines 849-851 choose the airport on the costs most economical to the State, all costs considered, so the local-airport assumption (lines 845-846) gives way. Audit: a reader who takes 'travelers are to utilize their local airport' (line 845) as binding, with lines 849-851 only its rationale, books Baton Rouge at its lowest fare; that reading is defensible too, so both offers are accepted."
 }

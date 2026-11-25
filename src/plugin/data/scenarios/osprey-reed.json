@@ -121,6 +121,7 @@
       "ECONOMY"
     ],
     "reason_codes": [
+      "ALTERNATE_ROUTE_TOO_EXPENSIVE",
       "COST_SAVINGS",
       "LOCAL_AIRPORT_REQUIRED"
     ],
@@ -129,7 +130,8 @@
     ],
     "clauses": [
       "AIRLINE_GENERAL",
-      "PUBLIC_CARRIER"
+      "PUBLIC_CARRIER",
+      "TRAVEL_ROUTING"
     ],
     "unclear_phrase": ""
   },
